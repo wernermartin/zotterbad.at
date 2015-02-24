@@ -1,0 +1,59 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.btn-nav {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;  
+  border-radius: 0px;
+
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  border-bottom: solid #df2c23 5px;
+  text-decoration: none;
+}
+ a.btn-nav {
+  color: #ffffff;
+}
+
+.btn-nav:hover {
+  text-decoration: none;
+  border-bottom: solid #ffffff 5px;
+}
+
+h4.col-md-4 {
+  color: #df2c23;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
