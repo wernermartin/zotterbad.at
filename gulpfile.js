@@ -59,9 +59,11 @@ gulp.task('connect', function() {
 
 
 gulp.task('watch', function () {
-	gulp.watch('src/css/*.css', ['css']);
+	gulp.watch('src/css/*.css', ['css', 'img', 'reload']);
 	gulp.watch('src/js/*.js', ['js']);
-	gulp.watch('*.html', ['html', 'reload']);
+	gulp.watch('*.html', ['html', 'img' , 'reload']);
+	gulp.watch('*.jpg', ['img', 'reload']);
+	gulp.watch('*.png', ['img', 'reload']);
 });
 
 gulp.task('default', ['html', 'css', 'vendor', 'fonts', 'img', 'js', 'connect', 'watch']);

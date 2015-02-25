@@ -8,6 +8,7 @@
   display: inline-block;
   padding: 6px 12px;
   margin-bottom: 0;
+  margin-right: -5px;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -43,7 +44,39 @@ h4.col-md-4 {
   color: #df2c23;
 }
 
+.col-header {
+  background-image: url("./img/floor-tile--header-1920x485.jpg");  
+  background-repeat: no-repeat;
+  max-height: 200px;
+}
 
+.times {
+  color: #ffffff;
+  padding-left: 7%;
+  padding-top: 20px;
+}
+
+.logo {
+  background-image: url("./img/logo--header-185x135.jpg");
+  background-repeat: no-repeat;
+  width: 185px;
+  height: 135px; 
+  padding: 20px;
+}
+
+.content {
+  text-align: center;
+  padding-top: 70px;
+}
+
+footer > p {
+  text-align: center;
+  /*background-color: #df2c23; */
+}
+
+.nav-custom {
+  padding-left: 7%;
+}
 
 
 
