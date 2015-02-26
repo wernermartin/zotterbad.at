@@ -32,12 +32,12 @@
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid nav-custom">
         
-        <a class="btn-nav" href="#" role="button">Home</a>
-        <a class="btn-nav" href="#" role="button">&Uuml;ber Zotter</a>
-        <a class="btn-nav" href="#" role="button">Bad</a>
-        <a class="btn-nav" href="#" role="button">Energie</a>
-        <a class="btn-nav" href="#" role="button">Zotterpoints</a>
-        <a class="btn-nav" href="#" role="button">Aktuelles</a>
+        <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="0">Home</a>
+        <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="1">&Uuml;ber Zotter</a>
+        <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="2">Bad</a>
+        <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="3">Energie</a>
+        <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="4">Zotterpoints</a>
+        <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="5">Aktuelles</a>
       </div>
     </nav><!-- !NAVIGATION -->
 
@@ -46,7 +46,7 @@
       <div class="row col-header">
         <div class="col-md-12">
           <div class="row">
-            <div class="col-md-3 times">
+            <div class="col-md-3 times hidden-xs hidden-sm">
               <h4>&Ouml;ffnungszeiten</h4>
               <h5>Montag bis Donnerstag</h5>
               <p>07:30 - 12:00 &amp; 13:00 - 17:00</p>
@@ -55,7 +55,7 @@
               <p>07:30 - 12:00</p>
             </div>
             <div class="col-md-6 hidden-xs hidden-sm">
-                <div id="carousel-generic" class="carousel slide" data-ride="carousel">
+                <div id="carousel-generic" class="carousel slide carousel-user" data-ride="carousel" data-interval="false">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                   <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
@@ -102,6 +102,190 @@
         </div>
       </div><!-- ! Header & Carousel -->
 
+      <!-- CONTENT CAROUSEL -->
+      <div class="container">
+      <div class="col-md-12">
+                <div id="carousel-content" class="carousel slide carousel-user" data-ride="carousel" data-interval="false">
+                <!-- Indicators -->
+                <!--
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-content" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-content" data-slide-to="1"></li>
+                  <li data-target="#carousel-content" data-slide-to="2"></li>
+                </ol>-->
+               
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <!-- HOME -->
+                  <div class="item active">
+                    <div class="row content">
+                      <div class="col-md-4">
+                        <h4>Zotter Band &amp; Energie</h4>
+                        <p>
+                          Wir bauen seit &uuml;ber 40 Jahren energiesparende Heizungen,individuelle Wohn­ B&auml;der und architektonisch ansprechende Wellness-Oasen vorwiegend im privaten Bereich -fix und fertig zu festen Preisen. Mit  Bad &amp; Energie richten wir unseren Kunden Naherholungsgebiete in den eigenen vier W&auml;nden.
+                        </p>
+                        <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie" class="img-rounded">
+                      </div>
+                      <div class="col-md-4">
+                        <h4>Sauberkeit und Umweltbewusstsein</h4>
+                          <p>
+                          Wir schaffen durch unsere T&auml;tigkeit und die eingesetzten Produkte ein gesundes, angenehmes und behagliches Wohnen. Als Dienstleistungsbetrieb für den Haustechnikbereich ist das Bekenntnis zur Sauberkeit für uns eine Verpflichtung. Unsere Dienstleistungen und Produkte sind auf ein umweltgerechtes Handeln ausgerichtet.
+                        </p>
+                        <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein" class="img-rounded">
+                      </div>
+                      <div class="col-md-4">
+                        <h4>Kontinuierliche Verbesserung aller Prozesse</h4>
+                          <p>
+                          Wer nicht t&auml;glich versucht besser zu werden, hat aufgeh&ouml;rt gut zu sein. Aus diesem Grunde werden in unserer Firma st&auml;ndig alle T&auml;tigkeiten mit dem Anspruch ausgef&uuml;hrt,diese f&uuml;r unseren Kunden zu verbessern. F&uuml;r Hinweise unserer Kunden, Lieferanten und Partner zur Optimierung unserer Organisation sind wir dankbar.
+                        </p>
+                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse" class="img-rounded">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- !HOME -->
+                  <!-- ABOUT -->
+                  <div class="item">
+                   <div class="row content">
+                      <div class="col-md-4">
+                        <h4>Kundenorientierung</h4>
+                        <p>
+                          Das Wohl unserer Kunden hat für unsere Firma oberste Priorität. Unsere Kunden sind die wichtigsten Personen in unserem Betrieb. Gemeinsam mit unserem Kunden erarbeiten wir eine optimale Lösung. Unsere umfassende und faire Beratung ist auf die Bedürfnisse des Kunden abgestimmt. Unsere Aussagen den Kunden gegenüber sind immer bindend. Wir wollen die Zeit und das Geld unserer Kunden nicht verschwenden. Auch nach der Auftragsabwicklung sind wir zu jeder Zeit zuverlässiger Ansprechpartner für unsere Kunden.
+                        </p>
+                        <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                      </div>
+                      <div class="col-md-4">
+                        <h4>Mitarbeiter</h4>
+                          <p>
+                          Kundenzufriedenheit fällt nicht vom Himmel,sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitar-beiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz,der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
+                        </p>
+                        <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                      </div>
+                      <div class="col-md-4">
+                        <h4>Qualit&auml;t ist kein Zufall</h4>
+                          <p>
+                          Für unsere Kunden setzen wir ausschließlich hochwertige Produkte von Marktführern und Spezialisten ein,mit  denen wir in einem partnerschaftliehen Verhältnis stehen. Die Produkte unserer ausgewählten  Lieferanten in Kombination mit unserem fachlichen Know-how  und innovativen Ideen ermöglichen es uns, dem Kunden eine hochwertige Leistung zu bieten.
+                        </p>
+                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ! ABOUT -->
+                  <!-- BATH -->
+                  <div class="item">
+                    <div class="row content">
+                      <div class="col-md-4">
+                        <h4>Das Zotterbad</h4>
+                        <p>
+                          Das Wohl unserer Kunden hat für unsere Firma oberste Priorität. Unsere Kunden sind die wichtigsten Personen in unserem Betrieb. Gemeinsam mit unserem Kunden erarbeiten wir eine optimale Lösung. Unsere umfassende und faire Beratung ist auf die Bedürfnisse des Kunden abgestimmt. Unsere Aussagen den Kunden gegenüber sind immer bindend. Wir wollen die Zeit und das Geld unserer Kunden nicht verschwenden. Auch nach der Auftragsabwicklung sind wir zu jeder Zeit zuverlässiger Ansprechpartner für unsere Kunden.
+                        </p>
+                        <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                      </div>
+                      <div class="col-md-4">
+                        <h4>Badplanung</h4>
+                          <p>
+                          Kundenzufriedenheit fällt nicht vom Himmel,sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitar-beiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz,der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
+                        </p>
+                        <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                      </div>
+                      <div class="col-md-4">
+                        <h4>Das barrierefreie Bad</h4>
+                          <p>
+                          Für unsere Kunden setzen wir ausschließlich hochwertige Produkte von Marktführern und Spezialisten ein,mit  denen wir in einem partnerschaftliehen Verhältnis stehen. Die Produkte unserer ausgewählten  Lieferanten in Kombination mit unserem fachlichen Know-how  und innovativen Ideen ermöglichen es uns, dem Kunden eine hochwertige Leistung zu bieten.
+                        </p>
+                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      </div>
+                    </div>
+                  </div>                  
+                  <!-- ! BATH -->
+                   <div class="item">
+                    <div class="row content">
+                      <div class="col-md-4">
+                        <h4>Wärme aus der Sonne</h4>
+                        <p>
+                          Das Wohl unserer Kunden hat für unsere Firma oberste Priorität. Unsere Kunden sind die wichtigsten Personen in unserem Betrieb. Gemeinsam mit unserem Kunden erarbeiten wir eine optimale Lösung. Unsere umfassende und faire Beratung ist auf die Bedürfnisse des Kunden abgestimmt. Unsere Aussagen den Kunden gegenüber sind immer bindend. Wir wollen die Zeit und das Geld unserer Kunden nicht verschwenden. Auch nach der Auftragsabwicklung sind wir zu jeder Zeit zuverlässiger Ansprechpartner für unsere Kunden.
+                        </p>
+                        <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                      </div>
+                      <div class="col-md-4">
+                        <h4>Strom aus der Sonne</h4>
+                          <p>
+                          Kundenzufriedenheit fällt nicht vom Himmel,sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitar-beiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz,der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
+                        </p>
+                        <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                      </div>
+                      <div class="col-md-4">
+                        <h4>W&auml;rme/K&auml;lte-Verteilung</h4>
+                          <p>
+                          Für unsere Kunden setzen wir ausschließlich hochwertige Produkte von Marktführern und Spezialisten ein,mit  denen wir in einem partnerschaftliehen Verhältnis stehen. Die Produkte unserer ausgewählten  Lieferanten in Kombination mit unserem fachlichen Know-how  und innovativen Ideen ermöglichen es uns, dem Kunden eine hochwertige Leistung zu bieten.
+                        </p>
+                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      </div>
+                    </div>
+                  </div>
+                   <div class="item">
+                    <div class="row content">
+                      <div class="col-md-4">
+                        <h4>Kundenorientierung</h4>
+                        <p>
+                          Das Wohl unserer Kunden hat für unsere Firma oberste Priorität. Unsere Kunden sind die wichtigsten Personen in unserem Betrieb. Gemeinsam mit unserem Kunden erarbeiten wir eine optimale Lösung. Unsere umfassende und faire Beratung ist auf die Bedürfnisse des Kunden abgestimmt. Unsere Aussagen den Kunden gegenüber sind immer bindend. Wir wollen die Zeit und das Geld unserer Kunden nicht verschwenden. Auch nach der Auftragsabwicklung sind wir zu jeder Zeit zuverlässiger Ansprechpartner für unsere Kunden.
+                        </p>
+                        <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                      </div>
+                      <div class="col-md-4">
+                        <h4>Mitarbeiter</h4>
+                          <p>
+                          Kundenzufriedenheit fällt nicht vom Himmel,sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitar-beiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz,der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
+                        </p>
+                        <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                      </div>
+                      <div class="col-md-4">
+                        <h4>Qualit&auml;t ist kein Zufall</h4>
+                          <p>
+                          Für unsere Kunden setzen wir ausschließlich hochwertige Produkte von Marktführern und Spezialisten ein,mit  denen wir in einem partnerschaftliehen Verhältnis stehen. Die Produkte unserer ausgewählten  Lieferanten in Kombination mit unserem fachlichen Know-how  und innovativen Ideen ermöglichen es uns, dem Kunden eine hochwertige Leistung zu bieten.
+                        </p>
+                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      </div>
+                    </div>
+                  </div>
+                   <div class="item">
+                    <div class="row content">
+                      <div class="col-md-4">
+                        <h4>Kundenorientierung</h4>
+                        <p>
+                          Das Wohl unserer Kunden hat für unsere Firma oberste Priorität. Unsere Kunden sind die wichtigsten Personen in unserem Betrieb. Gemeinsam mit unserem Kunden erarbeiten wir eine optimale Lösung. Unsere umfassende und faire Beratung ist auf die Bedürfnisse des Kunden abgestimmt. Unsere Aussagen den Kunden gegenüber sind immer bindend. Wir wollen die Zeit und das Geld unserer Kunden nicht verschwenden. Auch nach der Auftragsabwicklung sind wir zu jeder Zeit zuverlässiger Ansprechpartner für unsere Kunden.
+                        </p>
+                        <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                      </div>
+                      <div class="col-md-4">
+                        <h4>Mitarbeiter</h4>
+                          <p>
+                          Kundenzufriedenheit fällt nicht vom Himmel,sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitar-beiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz,der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
+                        </p>
+                        <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                      </div>
+                      <div class="col-md-4">
+                        <h4>Qualit&auml;t ist kein Zufall</h4>
+                          <p>
+                          Für unsere Kunden setzen wir ausschließlich hochwertige Produkte von Marktführern und Spezialisten ein,mit  denen wir in einem partnerschaftliehen Verhältnis stehen. Die Produkte unserer ausgewählten  Lieferanten in Kombination mit unserem fachlichen Know-how  und innovativen Ideen ermöglichen es uns, dem Kunden eine hochwertige Leistung zu bieten.
+                        </p>
+                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+                <!-- Controls -->
+                <!--
+                <a class="left carousel-control" href="#carousel-content" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-content" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>-->
+              </div> <!-- Carousel -->
+           </div>
+      </div>
+      <!--
       <div class="container">
         <div class="row content">
           <div class="col-md-4">
@@ -126,7 +310,7 @@
             <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
           </div>
         </div>
-      </div>
+      </div>-->
       <hr>
 
       <footer>

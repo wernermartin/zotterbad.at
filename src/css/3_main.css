@@ -40,14 +40,10 @@
   border-bottom: solid #ffffff 5px;
 }
 
-h4.col-md-4 {
-  color: #df2c23;
-}
-
 .col-header {
   background-image: url("./img/floor-tile--header-1920x485.jpg");  
   background-repeat: no-repeat;
-  max-height: 200px;
+  max-height: 250px;
 }
 
 .times {
@@ -57,16 +53,25 @@ h4.col-md-4 {
 }
 
 .logo {
-  background-image: url("./img/logo--header-185x135.jpg");
+  background-image: url("./img/logo--header.jpg");
   background-repeat: no-repeat;
-  width: 185px;
-  height: 135px; 
-  padding: 20px;
+  background-position: 0 30px;
+  width: 320px;
+  height: 260px; 
+  margin-left: -20px;
 }
 
 .content {
   text-align: center;
-  padding-top: 70px;
+  padding-top: 20px;
+}
+
+.col-md-4 > h4 {
+  color: #df2c23;
+}
+
+.col-md-4 > p {
+  min-height: 220px;
 }
 
 footer > p {
@@ -78,6 +83,10 @@ footer > p {
   padding-left: 7%;
 }
 
+.carousel-user {
+  border: 15px solid #ffffff;
+  margin-top: 30px;
+}
 
 
 
