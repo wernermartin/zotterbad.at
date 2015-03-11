@@ -28,7 +28,7 @@
   font-family: Arial;
   color: #ffffff;
   font-size: 15px;
-  border-bottom: solid #df2c23 5px;
+  border-bottom: solid #ffffff 5px;
   text-decoration: none;
 }
  a.btn-nav {
@@ -37,7 +37,11 @@
 
 .btn-nav:hover {
   text-decoration: none;
-  border-bottom: solid #ffffff 5px;
+  border-bottom: solid #df2c23 5px;
+}
+
+.nav-active {
+  border-bottom: solid #df2c23 5px;
 }
 
 .col-header {
@@ -87,6 +91,8 @@ footer > p {
   border: 15px solid #ffffff;
   margin-top: 30px;
 }
+
+
 
 
 

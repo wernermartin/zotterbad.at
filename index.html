@@ -18,9 +18,6 @@
                 padding-bottom: 20px;
             }
         </style>
-        <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">-->
-
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
@@ -30,9 +27,8 @@
 
     <!-- NAVIGATION -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container-fluid nav-custom">
-        
-        <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="0">Home</a>
+      <div class="container-fluid nav-custom">            
+        <a class="btn-nav nav-active" href="#carousel-content" role="button" data-slide-to="0">Home</a>
         <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="1">&Uuml;ber Zotter</a>
         <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="2">Bad</a>
         <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="3">Energie</a>
@@ -46,7 +42,7 @@
       <div class="row col-header">
         <div class="col-md-12">
           <div class="row">
-            <div class="col-md-3 times hidden-xs hidden-sm">
+            <div class="col-md-3 times">
               <h4>&Ouml;ffnungszeiten</h4>
               <h5>Montag bis Donnerstag</h5>
               <p>07:30 - 12:00 &amp; 13:00 - 17:00</p>
@@ -54,7 +50,7 @@
               <h5>Freitag</h5>
               <p>07:30 - 12:00</p>
             </div>
-            <div class="col-md-6 hidden-xs hidden-sm">
+            <div class="col-md-6">
                 <div id="carousel-generic" class="carousel slide carousel-user" data-ride="carousel" data-interval="false">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -68,20 +64,20 @@
                   <div class="item active">
                     <img src="./img/main01.jpg" alt="...">
                     <div class="carousel-caption">
-                        <h3>Caption Text Eins</h3>
+                        <h3>&nbsp;</h3>
                     </div>
                   </div>
                   <div class="item">
                     <img src="./img/main01.jpg" alt="...">
                     <div class="carousel-caption">
-                        <h3>Zweiter Text</h3>
+                        <h3>&nbsp;</h3>
                     </div>
                   </div>
                   <div class="item">
                     <!--<img src="http://placehold.it/1200x315" alt="...">-->
                     <img src="./img/main01.jpg" alt="...">
                     <div class="carousel-caption">
-                        <h3>Text Nummer Drei</h3>
+                        <h3>&nbsp;</h3>
                     </div>
                   </div>
                 </div>
@@ -105,15 +101,7 @@
       <!-- CONTENT CAROUSEL -->
       <div class="container">
       <div class="col-md-12">
-                <div id="carousel-content" class="carousel slide carousel-user" data-ride="carousel" data-interval="false">
-                <!-- Indicators -->
-                <!--
-                <ol class="carousel-indicators">
-                  <li data-target="#carousel-content" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel-content" data-slide-to="1"></li>
-                  <li data-target="#carousel-content" data-slide-to="2"></li>
-                </ol>-->
-               
+                <div id="carousel-content" class="carousel slide carousel-user" data-ride="carousel" data-interval="false">        
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                   <!-- HOME -->
@@ -144,28 +132,28 @@
                   </div>
                   <!-- !HOME -->
                   <!-- ABOUT -->
-                  <div class="item">
+                  <div class="item">                    
                    <div class="row content">
                       <div class="col-md-4">
                         <h4>Kundenorientierung</h4>
                         <p>
                           Das Wohl unserer Kunden hat für unsere Firma oberste Priorität. Unsere Kunden sind die wichtigsten Personen in unserem Betrieb. Gemeinsam mit unserem Kunden erarbeiten wir eine optimale Lösung. Unsere umfassende und faire Beratung ist auf die Bedürfnisse des Kunden abgestimmt. Unsere Aussagen den Kunden gegenüber sind immer bindend. Wir wollen die Zeit und das Geld unserer Kunden nicht verschwenden. Auch nach der Auftragsabwicklung sind wir zu jeder Zeit zuverlässiger Ansprechpartner für unsere Kunden.
                         </p>
-                        <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                        <img src="./img/placeholder_230x245.png" alt="Zotter Bad &amp; Energie" class="img-rounded">
                       </div>
                       <div class="col-md-4">
-                        <h4>Mitarbeiter</h4>
+                        <h4><a href="#carousel-content" role="button" data-slide-to="6"><span class="glyphicon glyphicon-share-alt"></span> Mitarbeiter</a></h4>
                           <p>
                           Kundenzufriedenheit fällt nicht vom Himmel,sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitar-beiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz,der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
                         </p>
-                        <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                        <a href="#carousel-content" role="button" data-slide-to="6"><img src="./img/placeholder_230x245.png" alt="Sauberkeit und Umweltbewusstsein" class="img-rounded"></a>
                       </div>
                       <div class="col-md-4">
                         <h4>Qualit&auml;t ist kein Zufall</h4>
                           <p>
                           Für unsere Kunden setzen wir ausschließlich hochwertige Produkte von Marktführern und Spezialisten ein,mit  denen wir in einem partnerschaftliehen Verhältnis stehen. Die Produkte unserer ausgewählten  Lieferanten in Kombination mit unserem fachlichen Know-how  und innovativen Ideen ermöglichen es uns, dem Kunden eine hochwertige Leistung zu bieten.
                         </p>
-                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                        <img src="./img/placeholder_230x245.png" alt="Kontinuierliche Verbesserung aller Prozesse" class="img-rounded">
                       </div>
                     </div>
                   </div>
@@ -174,104 +162,173 @@
                   <div class="item">
                     <div class="row content">
                       <div class="col-md-4">
-                        <h4>Das Zotterbad</h4>
+                        <h4><a href="#carousel-content" role="button" data-slide-to="7"><span class="glyphicon glyphicon-share-alt"></span> Das Zotterbad</a></h4>
                         <p>
                           Das Wohl unserer Kunden hat für unsere Firma oberste Priorität. Unsere Kunden sind die wichtigsten Personen in unserem Betrieb. Gemeinsam mit unserem Kunden erarbeiten wir eine optimale Lösung. Unsere umfassende und faire Beratung ist auf die Bedürfnisse des Kunden abgestimmt. Unsere Aussagen den Kunden gegenüber sind immer bindend. Wir wollen die Zeit und das Geld unserer Kunden nicht verschwenden. Auch nach der Auftragsabwicklung sind wir zu jeder Zeit zuverlässiger Ansprechpartner für unsere Kunden.
                         </p>
-                        <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                        <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie" class="img-rounded">
                       </div>
                       <div class="col-md-4">
                         <h4>Badplanung</h4>
                           <p>
                           Kundenzufriedenheit fällt nicht vom Himmel,sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitar-beiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz,der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
                         </p>
-                        <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                        <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein" class="img-rounded">
                       </div>
                       <div class="col-md-4">
                         <h4>Das barrierefreie Bad</h4>
                           <p>
                           Für unsere Kunden setzen wir ausschließlich hochwertige Produkte von Marktführern und Spezialisten ein,mit  denen wir in einem partnerschaftliehen Verhältnis stehen. Die Produkte unserer ausgewählten  Lieferanten in Kombination mit unserem fachlichen Know-how  und innovativen Ideen ermöglichen es uns, dem Kunden eine hochwertige Leistung zu bieten.
                         </p>
-                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse" class="img-rounded">
                       </div>
                     </div>
                   </div>                  
                   <!-- ! BATH -->
+                  <!-- ENERGY -->
                    <div class="item">
                     <div class="row content">
                       <div class="col-md-4">
-                        <h4>Wärme aus der Sonne</h4>
+                        <h4>W&auml;rme aus der Sonne</h4>
                         <p>
-                          Das Wohl unserer Kunden hat für unsere Firma oberste Priorität. Unsere Kunden sind die wichtigsten Personen in unserem Betrieb. Gemeinsam mit unserem Kunden erarbeiten wir eine optimale Lösung. Unsere umfassende und faire Beratung ist auf die Bedürfnisse des Kunden abgestimmt. Unsere Aussagen den Kunden gegenüber sind immer bindend. Wir wollen die Zeit und das Geld unserer Kunden nicht verschwenden. Auch nach der Auftragsabwicklung sind wir zu jeder Zeit zuverlässiger Ansprechpartner für unsere Kunden.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
                         </p>
-                        <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                        <img src="./img/energy_01.jpg" alt="W&auml;rme aus der Sonne" class="img-rounded">
                       </div>
                       <div class="col-md-4">
                         <h4>Strom aus der Sonne</h4>
                           <p>
-                          Kundenzufriedenheit fällt nicht vom Himmel,sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitar-beiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz,der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
                         </p>
-                        <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                        <img src="./img/energy_02.jpg" alt="Strom aus der Sonne" class="img-rounded">
                       </div>
                       <div class="col-md-4">
                         <h4>W&auml;rme/K&auml;lte-Verteilung</h4>
                           <p>
-                          Für unsere Kunden setzen wir ausschließlich hochwertige Produkte von Marktführern und Spezialisten ein,mit  denen wir in einem partnerschaftliehen Verhältnis stehen. Die Produkte unserer ausgewählten  Lieferanten in Kombination mit unserem fachlichen Know-how  und innovativen Ideen ermöglichen es uns, dem Kunden eine hochwertige Leistung zu bieten.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
                         </p>
-                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                        <img src="./img/energy_03.jpg" alt="W&auml;rme/K&auml;lte-Verteilung" class="img-rounded">
                       </div>
                     </div>
                   </div>
+                  <!-- ENDOF: ENERGY -->
+                  <!-- ZOTTERPOINTS -->
                    <div class="item">
                     <div class="row content">
-                      <div class="col-md-4">
-                        <h4>Kundenorientierung</h4>
+                      <div class="col-md-12">
+                        <img src="./img/zotterpoints.jpg" alt="Zotterpoints" class="img-rounded">
                         <p>
-                          Das Wohl unserer Kunden hat für unsere Firma oberste Priorität. Unsere Kunden sind die wichtigsten Personen in unserem Betrieb. Gemeinsam mit unserem Kunden erarbeiten wir eine optimale Lösung. Unsere umfassende und faire Beratung ist auf die Bedürfnisse des Kunden abgestimmt. Unsere Aussagen den Kunden gegenüber sind immer bindend. Wir wollen die Zeit und das Geld unserer Kunden nicht verschwenden. Auch nach der Auftragsabwicklung sind wir zu jeder Zeit zuverlässiger Ansprechpartner für unsere Kunden.
+                          Gute Handwerker sind wie gute Ärzte,ihre Adressen gibt man nur den besten Freunden. Aus diesem Grund haben wir den wertvollen Tipp entwickelt. Ein Empfehlungs-Gutschein für einen Menschen mit dem Sie es gut meinen. Wir haben uns überlegt wie wir es machen könnten, dass nicht nur wir durch Ihre Empfehlung,sondern auch Sie von Ihrer Weiterempfehlung des Zotter-Teams profitieren. Deshalb haben wir für Ihre Weiterempfehlungen ein Punktesystem eingeführt. Für jeden Auftrag den Sie uns vermitteln bekommen Sie Zotterpoints.
+                        </p>                        
+                        <h4>1 Zotterpoint ist 150 € unvermittelter Umsatz</h4>
+                      </div>
+                    </div>
+                    <div class="row content">                      
+                      <div class="col-md-4">
+                        <h4>Ab 100<span class="glyphicon glyphicon-tint"></span> Zotterpoints</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
                         </p>
-                        <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                        <img src="./img/placeholder_230x245.png" alt="Zotter Bad &amp; Energie" class="img-rounded">
                       </div>
                       <div class="col-md-4">
-                        <h4>Mitarbeiter</h4>
+                        <h4>Ab 150<span class="glyphicon glyphicon-tint"></span> Zotterpoints</h4>
                           <p>
-                          Kundenzufriedenheit fällt nicht vom Himmel,sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitar-beiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz,der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
                         </p>
-                        <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                        <img src="./img/placeholder_230x245.png" alt="Sauberkeit und Umweltbewusstsein" class="img-rounded">
                       </div>
                       <div class="col-md-4">
-                        <h4>Qualit&auml;t ist kein Zufall</h4>
+                        <h4>Ab 500<span class="glyphicon glyphicon-tint"></span> Zotterpoints</h4>
                           <p>
-                          Für unsere Kunden setzen wir ausschließlich hochwertige Produkte von Marktführern und Spezialisten ein,mit  denen wir in einem partnerschaftliehen Verhältnis stehen. Die Produkte unserer ausgewählten  Lieferanten in Kombination mit unserem fachlichen Know-how  und innovativen Ideen ermöglichen es uns, dem Kunden eine hochwertige Leistung zu bieten.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
                         </p>
-                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                        <img src="./img/placeholder_230x245.png" alt="Kontinuierliche Verbesserung aller Prozesse" class="img-rounded">
                       </div>
                     </div>
                   </div>
+                  <!-- ENDOF: ZOTTERPOINTS -->
+                  <!-- NEWS -->
                    <div class="item">
                     <div class="row content">
-                      <div class="col-md-4">
-                        <h4>Kundenorientierung</h4>
+                    <div class="col-md-3">
+                    </div>
+                      <div class="col-md-6">
+                        <h4>Aktuelles</h4>
                         <p>
-                          Das Wohl unserer Kunden hat für unsere Firma oberste Priorität. Unsere Kunden sind die wichtigsten Personen in unserem Betrieb. Gemeinsam mit unserem Kunden erarbeiten wir eine optimale Lösung. Unsere umfassende und faire Beratung ist auf die Bedürfnisse des Kunden abgestimmt. Unsere Aussagen den Kunden gegenüber sind immer bindend. Wir wollen die Zeit und das Geld unserer Kunden nicht verschwenden. Auch nach der Auftragsabwicklung sind wir zu jeder Zeit zuverlässiger Ansprechpartner für unsere Kunden.
-                        </p>
-                        <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
+
+Quisque consectetur neque at elit venenatis commodo. Cras eget gravida mauris. Integer augue velit, ultrices in est non, pretium elementum lorem. Sed a aliquam augue. Donec justo lacus, volutpat non tincidunt a, dictum eget nibh. Sed ipsum velit, rutrum congue leo at, mattis mollis ex. Integer consequat enim nec elit vehicula maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus justo felis, tempus at sollicitudin in, euismod non dui. Etiam libero lorem, molestie in diam sit amet, interdum pellentesque arcu. Duis congue volutpat quam quis laoreet. Ut laoreet tellus ut fringilla efficitur. Nullam vitae aliquam odio. Quisque sit amet maximus turpis, eget lobortis ex.
+                        </p>                        
+                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse" class="img-rounded">
                       </div>
-                      <div class="col-md-4">
-                        <h4>Mitarbeiter</h4>
-                          <p>
-                          Kundenzufriedenheit fällt nicht vom Himmel,sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitar-beiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz,der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
-                        </p>
-                        <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
-                      </div>
-                      <div class="col-md-4">
-                        <h4>Qualit&auml;t ist kein Zufall</h4>
-                          <p>
-                          Für unsere Kunden setzen wir ausschließlich hochwertige Produkte von Marktführern und Spezialisten ein,mit  denen wir in einem partnerschaftliehen Verhältnis stehen. Die Produkte unserer ausgewählten  Lieferanten in Kombination mit unserem fachlichen Know-how  und innovativen Ideen ermöglichen es uns, dem Kunden eine hochwertige Leistung zu bieten.
-                        </p>
-                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
-                      </div>
+                      <div class="col-md-3">
+                    </div>
                     </div>
                   </div>
+                  <!-- ENDOF: NEWS -->
+                  <!-- EMPLOYEES -->
+                  <div class="item">
+                    <div id="demoLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class='lightbox-content'>
+                          <img src="./img/employee-01.pjpg">
+                          <div class="lightbox-caption"><p>Your caption here</p></div>
+                        </div>
+                      </div>                  
+                   <div class="row content">                      
+                      <div class="col-md-2">                       
+                        <a data-toggle="lightbox" href="#demoLightbox"><img src="./img/employee-01.jpg" alt="Mitarbeiter" class="img-rounded"></a>
+                        <img src="./img/employee-04.jpg" alt="Mitarbeiter" class="img-rounded">
+                        <img src="./img/employee-07.jpg" alt="Mitarbeiter" class="img-rounded">
+                      </div>
+                      <div class="col-md-2">                       
+                        <img src="./img/employee-02.jpg" alt="Mitarbeiter" class="img-rounded">
+                        <img src="./img/employee-05.jpg" alt="Mitarbeiter" class="img-rounded">
+                        <img src="./img/employee-08.jpg" alt="Mitarbeiter" class="img-rounded">
+                      </div>
+                      <div class="col-md-2">                       
+                        <img src="./img/employee-03.jpg" alt="Mitarbeiter" class="img-rounded">
+                        <img src="./img/employee-06.jpg" alt="Mitarbeiter" class="img-rounded">
+                        <img src="./img/employee-09.jpg" alt="Mitarbeiter" class="img-rounded">
+                      </div>
+                      <div class="col-md-2">
+                      </div>
+                      <div class="col-md-4">
+                        <p>
+                          "Einer kann nicht alles",besagt eine alte Volksweisheit Und daher ist es umso wichtiger, dass alle eines können: Zusammenarbeiten!
+                            Darauf setzen wir, aufgrund unserer unterschiedlichen Interessen und Erfahrungen ergänzt sich das Team von Roman Zotter ideal. 
+
+                          Die individuellen Schwerpunkte unserer Mitarbeiter zu nutzen, ihre Kräfte zu bündeln und sie mit dem bestmöglichen  Werkzeugen sowie Material auszu-statten, ist das A und 0 in unserem Unternehmen. Für unsere Kunden bedeutet das: Sie erhalten das geballte Team­ Wissen und können sich darauf verlassen, dass wir die unterschiedlichsten Aufträge stets zuverlässig und kompetent zu Ihrer vollsten Zufriedenheit erfüllen.
+                          Nur weil wir gemeinsam unser Bestes geben, sind wir so erfolgreich. Den großen Erfolg haben wir unserer perfekten Arbeitsweise und unserem großartigen Fachwissen zu verdanken. Wir sind dankbar,euch als Mitarbeiter und Freunde zu haben.
+
+                          Schön,dass es euch gibt - danke für eure Treue.
+                        </p>
+                      </div>                      
+                    </div>
+                  </div>
+                  <!-- END: EMPLOYEES -->
+                  <!-- ZOTTERBAD -->
+                  <div class="item">                    
+                   <div class="row content">
+                      <div class="col-md-4">                       
+                        <img src="./img/placeholder_235x165.jpg" alt="Zotterbad">
+                      </div>
+                      <div class="col-md-4">                       
+                        Sollten Sie schon einmal ein Bad errichtet  haben, werden Sie sich noch daran erinnern wen Sie dazu benötigt haben - Installateur, Maurer, Elektriker, Fliesenleger, Tischler & Maler. Zu all diesen Handwerkern mussten Sie Kontakt aufnehmen - Kostenvoranschläge einholen, Termine verein-baren oder auch noch deren Schmutz und Verpackungsmüll beseitigen. Schon alleine diese Vorstellung oder Erfahrung ist oft das Ende der Renovierungswünsche. 
+
+Deshalb gibt es für unsere Bad Kunden das " ZotterBad " ! Das Bad aus einer Hand. Das bedeutet für Sie erhebliche Vorteile, weil Sie es nur mit einen Ansprechpartner zu tun haben. Sie brauchen sich nicht um die Koordinierung der verschiedenen Arbeiten kümmern. 
+                        <img src="./img/placeholder_235x165.jpg" alt="Zotterbad">
+
+
+
+
+                      </div>
+                      <div class="col-md-4">                       
+                        <img src="./img/placeholder_235x165.jpg" alt="Zotterbad">
+                      </div>                                         
+                    </div>
+                  </div>
+                  <!-- END: ZOTTERBAD -->
                 </div>
                
                 <!-- Controls -->
@@ -321,6 +378,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="bootstrap.min.js"></script>
+    <script src="bootstrap-lightbox.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!--<script>
