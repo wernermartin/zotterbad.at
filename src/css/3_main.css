@@ -67,7 +67,7 @@
 
 .content {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .col-md-4 > h4 {
@@ -75,12 +75,30 @@
 }
 
 .col-md-4 > p {
-  min-height: 220px;
+  padding-bottom: 20px;
+  min-height: 200px;
+  text-align: justify;
+}
+
+.col-md-4 > img {
+  border: 15px solid #ffffff;
+}
+
+footer {
+  background-color: #df2c23;
+  padding-top: 60px;
+  min-height: 100px;
+  margin-top: -40px;
 }
 
 footer > p {
   text-align: center;
-  /*background-color: #df2c23; */
+  color: #ffffff;
+  /*background-color: #df2c23;*/
+}
+
+footer > p > a {
+  color: #ffffff;
 }
 
 .nav-custom {
@@ -88,13 +106,79 @@ footer > p {
 }
 
 .carousel-user {
+  /*border: 15px solid #ffffff;*/
+  margin-top: 30px;
+}
+
+.carousel-big {
   border: 15px solid #ffffff;
   margin-top: 30px;
 }
 
 
+.img-employee {
+  border: 15px solid #ffffff;
+  margin-left: 5px;
+}
 
-
+/* FONT SETTINGS */
+h1 {
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.3999996185303px;
+}
+h3 {
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.3999996185303px;
+}
+h4 {
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 800;
+  line-height: 15.3999996185303px;
+}
+h5 {
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.3999996185303px;
+}
+p {
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714282989502px;
+}
+/* ENDOF: FONT SETTINGS */
 
 
 
