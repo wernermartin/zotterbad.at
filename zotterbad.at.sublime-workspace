@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"min",
-				"min-height"
+				"padding",
+				"padding-bottom"
 			],
 			[
 				"margin",
-				"margin-left"
+				"margin-top"
+			],
+			[
+				"min",
+				"min-height"
 			],
 			[
 				"padd",
@@ -38,10 +42,6 @@
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"padding",
-				"padding-left"
 			],
 			[
 				"margi",
@@ -79,7 +79,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 28852,
+				"buffer_size": 28703,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,7 +103,7 @@
 			"file": "src/css/3_main.css",
 			"settings":
 			{
-				"buffer_size": 1688,
+				"buffer_size": 3560,
 				"line_ending": "Windows"
 			}
 		}
@@ -136,7 +136,8 @@
 	"expanded_folders":
 	[
 		"/E/Website - Projekte/code/zotterbad.at",
-		"/E/Website - Projekte/code/zotterbad.at/dist"
+		"/E/Website - Projekte/code/zotterbad.at/src",
+		"/E/Website - Projekte/code/zotterbad.at/src/css"
 	],
 	"file_history":
 	[
@@ -167,6 +168,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class=\"img-rounded\"",
+			"img-rounded",
+			"navbar",
+			"rounded",
+			"corner",
+			"h4",
 			"glyph",
 			"font",
 			"btn-nav",
@@ -208,15 +215,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28852,
+						"buffer_size": 28703,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19034,
-								19034
+								9340,
+								9340
 							]
 						],
 						"settings":
@@ -226,7 +233,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4185.0,
+						"translation.y": 2155.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -259,7 +266,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -283,8 +290,8 @@
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": -0.0,
-						"translation.y": 180.0,
+						"translation.x": 0.0,
+						"translation.y": 62.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -296,15 +303,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1688,
+						"buffer_size": 3560,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								426,
-								426
+								1241,
+								1241
 							]
 						],
 						"settings":
@@ -314,10 +321,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 900.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

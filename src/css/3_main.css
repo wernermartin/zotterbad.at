@@ -31,18 +31,7 @@
   border-bottom: solid #ffffff 5px;
   text-decoration: none;
 }
- a.btn-nav {
-  color: #ffffff;
-}
 
-.btn-nav:hover {
-  text-decoration: none;
-  border-bottom: solid #df2c23 5px;
-}
-
-.nav-active {
-  border-bottom: solid #df2c23 5px;
-}
 
 .col-header {
   background-image: url("./img/floor-tile--header-1920x485.jpg");  
@@ -84,6 +73,10 @@
   border: 15px solid #ffffff;
 }
 
+.col-md-6 > img {
+  border: 15px solid #ffffff;
+}
+
 footer {
   background-color: #df2c23;
   padding-top: 60px;
@@ -99,10 +92,6 @@ footer > p {
 
 footer > p > a {
   color: #ffffff;
-}
-
-.nav-custom {
-  padding-left: 7%;
 }
 
 .carousel-user {
@@ -121,6 +110,65 @@ footer > p > a {
   margin-left: 5px;
 }
 
+
+/* NAVIGATION */
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.nav-custom {
+  padding-left: 7%;
+  background-color: #222;
+  border-color: #080808;
+  background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);  
+}
+
+.nav-pills > li > a {
+  border-radius: 0px;
+  background: none;
+  color: #fff;
+}
+
+.nav-pills > li > a:hover {
+  background-color: transparent;
+  border-radius: 0px;
+  border-bottom: 5px solid #df2c23;
+  color: #fff;
+}
+
+.nav-pills > li > a:active:visited {
+  background-color: transparent;
+  border-radius: 0px;
+  border-bottom: 5px solid #df2c23;
+  color: #fff;
+}
+
+.nav-active {
+  border-bottom: solid #df2c23 5px;
+}
+
+.nav-fix {
+  margin-top: -7px;
+}
+
+/* ENDOF: NAVIGATION */
+
 /* FONT SETTINGS */
 h1 {
   font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
@@ -128,7 +176,7 @@ h1 {
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
-  line-height: 26.3999996185303px;
+  line-height: 26px;
 }
 h3 {
   font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
@@ -136,7 +184,7 @@ h3 {
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
-  line-height: 15.3999996185303px;
+  line-height: 15px;
 }
 h4 {
   font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
@@ -144,7 +192,7 @@ h4 {
   font-style: normal;
   font-variant: normal;
   font-weight: 800;
-  line-height: 15.3999996185303px;
+  line-height: 15px;
 }
 h5 {
   font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
@@ -152,7 +200,7 @@ h5 {
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
-  line-height: 15.3999996185303px;
+  line-height: 15px;
 }
 p {
   font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
@@ -176,7 +224,7 @@ pre {
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
-  line-height: 18.5714282989502px;
+  line-height: 18px;
 }
 /* ENDOF: FONT SETTINGS */
 

@@ -25,20 +25,48 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <!-- NAVIGATION -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container-fluid nav-custom">            
+    <!-- NAVIGATION -->    
+    <ul class="nav nav-pills navbar-fixed-top nav-custom">
+
+      <li class="dropdown">
         <a class="btn-nav nav-active" href="#carousel-content" role="button" data-slide-to="0">Home</a>
-        <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="1">&Uuml;ber Zotter</a>
-        <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="2">Bad</a>
-        <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="3">Energie</a>
-        <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="4">Zotterpoints</a>
-        <a class="btn-nav" href="#carousel-content" role="button" data-slide-to="5">Aktuelles</a>
-      </div>
-    </nav><!-- !NAVIGATION -->
+      </li>
+
+      <li class="dropdown">
+          <a class="btn-nav" href="#carousel-content" data-toggle="dropdown" class="dropdown-toggle" data-slide-to="1">&Uuml;ber Zotter <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+              <li><a href="#carousel-content" role="button" data-slide-to="1">&Uuml;ber uns</a></li>  
+              <li><a href="#carousel-content" role="button" data-slide-to="6">Mitarbeiter</a></li>           
+          </ul>
+      </li>
+
+      <li class="dropdown">
+          <a class="btn-nav" href="#carousel-content" data-toggle="dropdown" class="dropdown-toggle" data-slide-to="2">Bad <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+              <li><a href="#carousel-content" role="button" data-slide-to="7">Das Zotterbad</a></li>  
+              <li><a href="#">Badplanung</a></li>
+              <li><a href="#">Das barrierefreie Bad</a></li> 
+              <li><a href="#">Das kleine Bad</a></li>          
+          </ul>
+      </li>
+
+      <li class="dropdown">
+          <a class="btn-nav" href="#carousel-content" data-toggle="dropdown" class="dropdown-toggle" data-slide-to="3">Energie <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+              <li><a href="#">W&auml;rme aus der Sonne</a></li>  
+              <li><a href="#">Strom aus der Sonne</a></li>
+              <li><a href="#">W&auml;rme/K&auml;lte-Verteilung</a></li>     
+          </ul>
+      </li>
+
+      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="4">Zotterpoints</a></li>
+      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="5">Aktuelles</a></li>
+
+    </ul>    
+    <!-- !NAVIGATION -->
 
     <!-- Header & Carousel -->
-    <div class="container-fluid">
+    <div class="container-fluid nav-fix">
       <div class="row col-header">
         <div class="col-md-12">
           <div class="row">
@@ -52,7 +80,7 @@
                 <p>Tel.: 04268 / 26 44<br>
                 Auch außerhalb der Zeiten -  nach Vereinbarung</p>
             </div>
-            <div class="col-md-6 hidden-sm hidden-xs">
+            <div class="col-md-6">
                 <div id="carousel-generic" class="carousel slide carousel-big" data-ride="carousel" data-interval="false">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -76,7 +104,6 @@
                     </div>
                   </div>
                   <div class="item">
-                    <!--<img src="http://placehold.it/1200x315" alt="...">-->
                     <img src="./img/main01.jpg" alt="...">
                     <div class="carousel-caption">
                         <h3>&nbsp;</h3>
@@ -106,7 +133,7 @@
                 <div id="carousel-content" class="carousel slide carousel-user" data-ride="carousel" data-interval="false">        
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
-                  <!-- HOME -->
+                  <!-- HOME 0 -->
                   <div class="item active">
                     <div class="row content">
                       <div class="col-md-4">
@@ -133,7 +160,7 @@
                     </div>
                   </div>
                   <!-- !HOME -->
-                  <!-- ABOUT -->
+                  <!-- ABOUT 1 -->
                   <div class="item">                    
                    <div class="row content">
                       <div class="col-md-4">
@@ -160,7 +187,7 @@
                     </div>
                   </div>
                   <!-- ! ABOUT -->
-                  <!-- BATH -->
+                  <!-- BATH 2 -->
                   <div class="item">
                     <div class="row content">
                       <div class="col-md-4">
@@ -187,7 +214,7 @@
                     </div>
                   </div>                  
                   <!-- ! BATH -->
-                  <!-- ENERGY -->
+                  <!-- ENERGY 3 -->
                    <div class="item">
                     <div class="row content">
                       <div class="col-md-4">
@@ -214,7 +241,7 @@
                     </div>
                   </div>
                   <!-- ENDOF: ENERGY -->
-                  <!-- ZOTTERPOINTS -->
+                  <!-- ZOTTERPOINTS 4 -->
                    <div class="item">
                     <div class="row content">
                       <div class="col-md-12">
@@ -250,7 +277,7 @@
                     </div>
                   </div>
                   <!-- ENDOF: ZOTTERPOINTS -->
-                  <!-- NEWS -->
+                  <!-- NEWS 5 -->
                    <div class="item">
                     <div class="row content">
                     <div class="col-md-3">
@@ -269,29 +296,23 @@ Quisque consectetur neque at elit venenatis commodo. Cras eget gravida mauris. I
                     </div>
                   </div>
                   <!-- ENDOF: NEWS -->
-                  <!-- EMPLOYEES -->
-                  <div class="item">
-                    <div id="demoLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
-                        <div class='lightbox-content'>
-                          <img src="./img/employee-01.pjpg">
-                          <div class="lightbox-caption"><p>Your caption here</p></div>
-                        </div>
-                      </div>                  
+                  <!-- EMPLOYEES 6 -->
+                  <div class="item">                                
                    <div class="row content">                      
-                      <div class="col-md-2">                       
-                        <a data-toggle="lightbox" href="#demoLightbox"><img src="./img/employee-01.jpg" alt="Mitarbeiter" class="img-employee"></a>
-                        <img src="./img/employee-04.jpg" alt="Mitarbeiter" class="img-employee">
-                        <img src="./img/employee-07.jpg" alt="Mitarbeiter" class="img-employee">
+                      <div class="col-md-2">
+                        <a href="#" data-toggle="modal" data-target="#employee-01"><img src="./img/employee-01.jpg" alt="Mitarbeiter" class="img-employee"></a>
+                        <a href="#" data-toggle="modal" data-target="#employee"><img src="./img/employee-04.jpg" alt="Mitarbeiter" class="img-employee"></a>
+                        <a href="#" data-toggle="modal" data-target="#employee"><img src="./img/employee-07.jpg" alt="Mitarbeiter" class="img-employee"></a>
                       </div>
                       <div class="col-md-2">                       
-                        <img src="./img/employee-02.jpg" alt="Mitarbeiter" class="img-employee">
-                        <img src="./img/employee-05.jpg" alt="Mitarbeiter" class="img-employee">
-                        <img src="./img/employee-08.jpg" alt="Mitarbeiter" class="img-employee">
+                        <a href="#" data-toggle="modal" data-target="#employee"><img src="./img/employee-02.jpg" alt="Mitarbeiter" class="img-employee"></a>
+                        <a href="#" data-toggle="modal" data-target="#employee"><img src="./img/employee-05.jpg" alt="Mitarbeiter" class="img-employee"></a>
+                        <a href="#" data-toggle="modal" data-target="#employee"><img src="./img/employee-08.jpg" alt="Mitarbeiter" class="img-employee"></a>
                       </div>
                       <div class="col-md-2">                       
-                        <img src="./img/employee-03.jpg" alt="Mitarbeiter" class="img-employee">
-                        <img src="./img/employee-06.jpg" alt="Mitarbeiter" class="img-employee">
-                        <img src="./img/employee-09.jpg" alt="Mitarbeiter" class="img-employee">
+                        <a href="#" data-toggle="modal" data-target="#employee"><img src="./img/employee-03.jpg" alt="Mitarbeiter" class="img-employee"></a>
+                        <a href="#" data-toggle="modal" data-target="#employee"><img src="./img/employee-06.jpg" alt="Mitarbeiter" class="img-employee"></a>
+                        <a href="#" data-toggle="modal" data-target="#employee"><img src="./img/employee-09.jpg" alt="Mitarbeiter" class="img-employee"></a>
                       </div>
                       <div class="col-md-2">
                       </div>
@@ -309,24 +330,26 @@ Quisque consectetur neque at elit venenatis commodo. Cras eget gravida mauris. I
                     </div>
                   </div>
                   <!-- END: EMPLOYEES -->
-                  <!-- ZOTTERBAD -->
+                  <!-- ZOTTERBAD 7 -->
                   <div class="item">                    
                    <div class="row content">
                       <div class="col-md-4">                       
-                        <img src="./img/placeholder_235x165.jpg" alt="Zotterbad">
+                        <img src="./img/placeholder_310x330.jpg" alt="Zotterbad">
                       </div>
                       <div class="col-md-4">                       
-                        Sollten Sie schon einmal ein Bad errichtet  haben, werden Sie sich noch daran erinnern wen Sie dazu benötigt haben - Installateur, Maurer, Elektriker, Fliesenleger, Tischler & Maler. Zu all diesen Handwerkern mussten Sie Kontakt aufnehmen - Kostenvoranschläge einholen, Termine verein-baren oder auch noch deren Schmutz und Verpackungsmüll beseitigen. Schon alleine diese Vorstellung oder Erfahrung ist oft das Ende der Renovierungswünsche. 
+                       <p>
+                       Sollten Sie schon einmal ein Bad errichtet  haben, werden Sie sich noch daran erinnern wen Sie dazu benötigt haben - Installateur, Maurer, Elektriker, Fliesenleger, Tischler & Maler. Zu all diesen Handwerkern mussten Sie Kontakt aufnehmen - Kostenvoranschläge einholen, Termine verein-baren oder auch noch deren Schmutz und Verpackungsmüll beseitigen. Schon alleine diese Vorstellung oder Erfahrung ist oft das Ende der Renovierungswünsche. 
 
-Deshalb gibt es für unsere Bad Kunden das " ZotterBad " ! Das Bad aus einer Hand. Das bedeutet für Sie erhebliche Vorteile, weil Sie es nur mit einen Ansprechpartner zu tun haben. Sie brauchen sich nicht um die Koordinierung der verschiedenen Arbeiten kümmern. 
-                        <img src="./img/placeholder_235x165.jpg" alt="Zotterbad">
+Deshalb gibt es für unsere Bad Kunden das " ZotterBad " ! Das Bad aus einer Hand. Das bedeutet für Sie erhebliche Vorteile, weil Sie es nur mit einen Ansprechpartner zu tun haben. Sie brauchen sich nicht um die Koordinierung der verschiedenen Arbeiten kümmern.
+                        </p>
+                        <img src="./img/placeholder_310x330.jpg" alt="Zotterbad">
 
 
 
 
                       </div>
                       <div class="col-md-4">                       
-                        <img src="./img/placeholder_235x165.jpg" alt="Zotterbad">
+                        <img src="./img/placeholder_310x330.jpg" alt="Zotterbad">
                       </div>                                         
                     </div>
                   </div>
@@ -344,33 +367,57 @@ Deshalb gibt es für unsere Bad Kunden das " ZotterBad " ! Das Bad aus einer Han
               </div> <!-- Carousel -->
            </div>
       </div>
-      <!--
-      <div class="container">
-        <div class="row content">
-          <div class="col-md-4">
-            <h4>Zotter Band &amp; Energie</h4>
-            <p>
-              Wir bauen seit &uuml;ber 40 Jahren energiesparende Heizungen,individuelle Wohn­ B&auml;der und architektonisch ansprechende Wellness-Oasen vorwiegend im privaten Bereich -fix und fertig zu festen Preisen. Mit  Bad &amp; Energie richten wir unseren Kunden Naherholungsgebiete in den eigenen vier W&auml;nden.
-            </p>
-            <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
-          </div>
-          <div class="col-md-4">
-            <h4>Sauberkeit und Umweltbewusstsein</h4>
-              <p>
-              Wir schaffen durch unsere T&auml;tigkeit und die eingesetzten Produkte ein gesundes, angenehmes und behagliches Wohnen. Als Dienstleistungsbetrieb für den Haustechnikbereich ist das Bekenntnis zur Sauberkeit für uns eine Verpflichtung. Unsere Dienstleistungen und Produkte sind auf ein umweltgerechtes Handeln ausgerichtet.
-            </p>
-            <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
-          </div>
-          <div class="col-md-4">
-            <h4>Kontinuierliche Verbesserung aller Prozesse</h4>
-              <p>
-              Wer nicht t&auml;glich versucht besser zu werden, hat aufgeh&ouml;rt gut zu sein. Aus diesem Grunde werden in unserer Firma st&auml;ndig alle T&auml;tigkeiten mit dem Anspruch ausgef&uuml;hrt,diese f&uuml;r unseren Kunden zu verbessern. F&uuml;r Hinweise unserer Kunden, Lieferanten und Partner zur Optimierung unserer Organisation sind wir dankbar.
-            </p>
-            <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+      <!-- EMPLOYEE MODAL -->
+      <div class="modal fade" id="employee-01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Roman Zotter</h4>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">                  
+                  <h4>Roman Zotter</h4>
+                  <h3>Geschäftsführer</h3>
+                  <p>Heizung-, Gas- und Wasserinstallationsmeister</p>
+                  <p>Tel.: 04268 / 2644</p>
+                  <p>E-Mail: <a href="mailto:zotter@zotterbad.at">zotter@zotterbad.at</a></p>
+                </div>
+                <div class="col-md-6">
+                  <img src="./img/employee-01.jpg" alt="Roman Zotter">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>-->
-      <!--<hr>-->
+      </div> 
+
+      <div class="modal fade" id="employee" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Max Mustermann</h4>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">                  
+                  <h4>Max Mustermann</h4>
+                  <h3>Mitarbeiter</h3>
+                  <p>Heizung-, Gas- und Wasserinstallationsmeister</p>
+                  <p>Tel.: 04268 / 2644</p>
+                  <p>E-Mail: <a href="mailto:zotter@zotterbad.at">zotter@zotterbad.at</a></p>
+                </div>
+                <div class="col-md-6">
+                  <img src="./img/placeholder_230x135.jpg" alt="Placeholder">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <!-- ENDOF: EMPLOYEE MODAL --> 
 
       
     </div> <!-- /container --> 
