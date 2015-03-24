@@ -18,7 +18,7 @@
                 padding-bottom: 0px;
             }
         </style>
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -27,41 +27,12 @@
 
     <!-- NAVIGATION -->    
     <ul class="nav nav-pills navbar-fixed-top nav-custom">
-
-      <li class="dropdown">
-        <a class="btn-nav nav-active" href="#carousel-content" role="button" data-slide-to="0">Home</a>
-      </li>
-
-      <li class="dropdown">
-          <a class="btn-nav" href="#carousel-content" data-toggle="dropdown" class="dropdown-toggle" data-slide-to="1">&Uuml;ber Zotter <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-              <li><a href="#carousel-content" role="button" data-slide-to="1">&Uuml;ber uns</a></li>  
-              <li><a href="#carousel-content" role="button" data-slide-to="6">Mitarbeiter</a></li>           
-          </ul>
-      </li>
-
-      <li class="dropdown">
-          <a class="btn-nav" href="#carousel-content" data-toggle="dropdown" class="dropdown-toggle" data-slide-to="2">Bad <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-              <li><a href="#carousel-content" role="button" data-slide-to="7">Das Zotterbad</a></li>  
-              <li><a href="#">Badplanung</a></li>
-              <li><a href="#">Das barrierefreie Bad</a></li> 
-              <li><a href="#">Das kleine Bad</a></li>          
-          </ul>
-      </li>
-
-      <li class="dropdown">
-          <a class="btn-nav" href="#carousel-content" data-toggle="dropdown" class="dropdown-toggle" data-slide-to="3">Energie <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-              <li><a href="#">W&auml;rme aus der Sonne</a></li>  
-              <li><a href="#">Strom aus der Sonne</a></li>
-              <li><a href="#">W&auml;rme/K&auml;lte-Verteilung</a></li>     
-          </ul>
-      </li>
-
-      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="4">Zotterpoints</a></li>
-      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="5">Aktuelles</a></li>
-
+      <li class="dropdown"><a class="btn-nav nav-active" href="#carousel-content" role="button" data-slide-to="0">Home</a></li>
+      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="1">&Uuml;ber Zotter</b></a></li>
+      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="2">Bad</b></a></li>
+      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="3">Energie</b></a></li>
+      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="4">Zotterpoints</a></li></li>
+      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="5">Aktuelles</a></li></li>
     </ul>    
     <!-- !NAVIGATION -->
 
@@ -70,24 +41,59 @@
       <div class="row col-header">
         <div class="col-md-12">
           <div class="row">
-            <div class="col-md-3 times">
-              <h4>&Ouml;ffnungszeiten</h4>              
-              <h3>Montag bis Donnerstag</h3>
-              <h5>07:30 - 12:00 &amp; 13:00 - 17:00</h5>
 
-              <h3>Freitag</h3>              
-              <h5>07:30 - 12:00</h5>
-                <p>Tel.: 04268 / 26 44<br>
-                Auch außerhalb der Zeiten -  nach Vereinbarung</p>
+            <!-- SUB-NAV SLIDER -->
+            <div class="col-md-3 times">            
+              <div id="carousel-sub-nav" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner carousel-sub-nav">
+                  <div class="item active sub-nav">                                       
+                  </div>
+                  <!-- SUB-NAV - ABOUT US -->
+                  <div class="item sub-nav">
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">&Uuml;ber uns</a>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Mitarbeiter</a>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Kontakt</a>                    
+                  </div>
+                  <!-- ENDOF: SUB-NAV - ABOUT US -->
+                  <!-- SUB-NAV - BATHROOM -->
+                  <div class="item sub-nav">
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Das Zotterbad</a>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Badplanung</a>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Barrierefrei</a>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Das kleine Bad</a>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Wellness</a>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Wanne raus - Dusche rein</a>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Staubfrei Arbeiten</a>
+                  </div>
+                  <!-- ENDOF: SUB-NAV - BATHROOM -->
+                  <div class="item">
+                    <div class="sub-nav">
+                      <a href="#">Kontakt</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <!-- ENDOF: SUB-NAV SLIDER -->
+
+            <!-- IMAGE SLIDER -->
             <div class="col-md-6">
                 <div id="carousel-generic" class="carousel slide carousel-big" data-ride="carousel" data-interval="false">
-                <!-- Indicators -->
+                <!-- INDICATORS -->
                 <ol class="carousel-indicators">
                   <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
                   <li data-target="#carousel-generic" data-slide-to="1"></li>
                   <li data-target="#carousel-generic" data-slide-to="2"></li>
                 </ol>
+                <!-- ENDOF: INDICATORS -->
                
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
@@ -118,14 +124,14 @@
                 <a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">
                   <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
-              </div> <!-- Carousel -->
+              </div> 
+              <!-- ENDOF: IMAGE-Carousel -->
            </div>
             <div class="col-md-3 logo">
-                <!--<img src="./img/logo--header.jpg">        -->
             </div>
           </div>
         </div>
-      </div><!-- ! Header & Carousel -->
+      </div>
       </div>
       <!-- CONTENT CAROUSEL -->
       <div class="container">
@@ -134,7 +140,8 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                   <!-- HOME 0 -->
-                  <div class="item active">
+                  <div class="item active" data-active-slide="0">
+                  <span id="xyz" data-sub-nav="home"></span>
                     <div class="row content">
                       <div class="col-md-4">
                         <h4>Zotter Band &amp; Energie</h4>
@@ -426,9 +433,10 @@ Deshalb gibt es für unsere Bad Kunden das " ZotterBad " ! Das Bad aus einer Han
         <a href="#impressum">Impressum</a> - Grafik &amp; Design: <a href="http://www.kopf-kunst.at" target="_blank">KopfKunst</a></p>
     </footer>       
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="jquery-1.11.2.min.js"><\/script>')</script>
     <script src="bootstrap.min.js"></script>
     <script src="bootstrap-lightbox.min.js"></script>
+    <script src="all.min.js"></script>    
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!--<script>

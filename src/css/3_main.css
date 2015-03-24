@@ -168,6 +168,21 @@ footer > p > a {
 }
 
 /* ENDOF: NAVIGATION */
+/*###################*/
+/* SUB-NAVIGATION  */
+.carousel-sub-nav {
+  padding-top: 7px;
+}
+
+.sub-nav > a {
+  color: #fff;
+}
+
+.glyphicon-chevron-right {
+  font-size: 10px;
+  color: #df2c23;  
+}
+/* ENDOF: SUBNAVIGATION */
 
 /* FONT SETTINGS */
 h1 {
@@ -226,6 +241,7 @@ pre {
   font-weight: 400;
   line-height: 18px;
 }
+
 /* ENDOF: FONT SETTINGS */
 
 

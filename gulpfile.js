@@ -13,7 +13,7 @@ var outputDir = './dist/';
 gulp.task('js', function() {
   return gulp.src('src/js/*.js')
   .pipe(concat('all.min.js'))
-  .pipe(uglify())
+  //.pipe(uglify())
   .pipe(gulp.dest(outputDir));  
 });
 
