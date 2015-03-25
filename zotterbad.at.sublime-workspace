@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"co",
+				"contentData"
+			],
+			[
+				"con",
+				"contentElement"
+			],
+			[
 				"backgro",
 				"background-color"
 			],
@@ -18,10 +34,6 @@
 			[
 				"min",
 				"min-height"
-			],
-			[
-				"padd",
-				"padding-left"
 			],
 			[
 				"backgr",
@@ -83,15 +95,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 30460,
+				"buffer_size": 45445,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "dist/404.html",
+			"file": "tmp",
 			"settings":
 			{
-				"buffer_size": 1272,
+				"buffer_size": 1823,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/main.js",
+			"settings":
+			{
+				"buffer_size": 216,
 				"line_ending": "Windows"
 			}
 		},
@@ -99,7 +119,7 @@
 			"file": "gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 1622,
+				"buffer_size": 1624,
 				"line_ending": "Windows"
 			}
 		},
@@ -107,7 +127,7 @@
 			"file": "src/css/3_main.css",
 			"settings":
 			{
-				"buffer_size": 4339,
+				"buffer_size": 4740,
 				"line_ending": "Windows"
 			}
 		}
@@ -140,11 +160,15 @@
 	"expanded_folders":
 	[
 		"/E/Website - Projekte/code/zotterbad.at",
+		"/E/Website - Projekte/code/zotterbad.at/dist",
 		"/E/Website - Projekte/code/zotterbad.at/src",
-		"/E/Website - Projekte/code/zotterbad.at/src/css"
+		"/E/Website - Projekte/code/zotterbad.at/src/css",
+		"/E/Website - Projekte/code/zotterbad.at/src/js"
 	],
 	"file_history":
 	[
+		"/E/Website - Projekte/code/zotterbad.at/dist/all.min.js",
+		"/E/Website - Projekte/code/zotterbad.at/dist/404.html",
 		"/E/Website - Projekte/code/zotterbad.at/src/css/1_bootstrap.css",
 		"/F/Unreal Tournament/UnrealTournamentDev/Engine/Shaders/StandaloneRenderer/OpenGL/SplashVertexShader.glsl",
 		"/E/Website - Projekte/code/zotterbad.at/img/floor-tile--header-1025x260.jpg",
@@ -172,6 +196,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"console.log",
+			"main.js",
+			"carousel",
 			"placeholder_310x330",
 			"nav-pills",
 			"class=\"img-rounded\"",
@@ -221,15 +248,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 30460,
+						"buffer_size": 45445,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25107,
-								25107
+								9798,
+								9798
 							]
 						],
 						"settings":
@@ -239,7 +266,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5204.0,
+						"translation.y": 1980.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -247,49 +274,77 @@
 				},
 				{
 					"buffer": 1,
-					"file": "dist/404.html",
+					"file": "tmp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1272,
+						"buffer_size": 1823,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								845,
-								845
+								1823,
+								1823
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "gulpfile.js",
+					"file": "src/js/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1622,
+						"buffer_size": 216,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1214,
-								1214
+								196,
+								196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
 							]
 						],
 						"settings":
@@ -300,24 +355,24 @@
 						"translation.y": 62.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "src/css/3_main.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4339,
+						"buffer_size": 4740,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1476,
-								1476
+								4639,
+								4639
 							]
 						],
 						"settings":
@@ -327,7 +382,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 585.0,
+						"translation.y": 3351.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -409,7 +464,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 282.0,
+	"side_bar_width": 235.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
