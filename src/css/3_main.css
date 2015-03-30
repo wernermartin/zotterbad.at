@@ -28,8 +28,30 @@
   font-family: Arial;
   color: #ffffff;
   font-size: 15px;
-  border-bottom: solid #ffffff 5px;
+  border-bottom: 5px solid #fff;
   text-decoration: none;
+}
+
+li.dropdown > a.btn-nav {
+  border-radius: 0px;
+}
+
+li.dropdown > a.btn-nav:hover,
+li.dropdown > a.btn-nav:active,
+li.dropdown > a.btn-nav:focus {
+  border-radius: 0px;
+  border-bottom: 5px solid #df2c23;
+  background-image: none;
+  background: none;
+  color: #fff;
+}
+
+.nav-active {
+  border-radius: 0px;
+  border-bottom: 5px solid #df2c23;
+  background-image: none;
+  background: none;
+  color: #fff;
 }
 
 
@@ -113,25 +135,7 @@ footer > p > a {
 
 
 /* NAVIGATION */
-.dropdown-menu .sub-menu {
-    left: 100%;
-    position: absolute;
-    top: 0;
-    visibility: hidden;
-    margin-top: -1px;
-}
 
-.dropdown-menu li:hover .sub-menu {
-    visibility: visible;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
-    margin-top: 0;
-}
 
 .nav-custom {
   padding-left: 7%;
@@ -140,10 +144,12 @@ footer > p > a {
   background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);  
 }
 
+/*
 .nav-pills > li > a {
   border-radius: 0px;
   background: none;
   color: #fff;
+  border-bottom: 5px solid #fff;
 }
 
 .nav-pills > li > a:hover {
@@ -153,8 +159,8 @@ footer > p > a {
   color: #fff;
 }
 
-.nav-pills > li > a:active:visited {
-  background-color: transparent;
+.nav-pills > li > a:visited {
+  
   border-radius: 0px;
   border-bottom: 5px solid #df2c23;
   color: #fff;
@@ -162,7 +168,7 @@ footer > p > a {
 
 .nav-active {
   border-bottom: solid #df2c23 5px;
-}
+}*/
 
 .nav-fix {
   margin-top: -7px;
@@ -260,8 +266,27 @@ div.aboutus > p {
 }
 /* ENDOF: FONT SETTINGS */
 
+div.newsitem {
 
+  padding-bottom: 25px;
 
+}
+
+div.newsitem > h4 {
+  color: #df2c23;
+}
+
+div.newsitem > h3 {
+  color: #df2c23;
+}
+
+div.newsitem {
+  text-align: left;
+}
+
+div.minheight450 > p{
+  min-height: 400px;
+}
 
 
 

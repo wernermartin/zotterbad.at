@@ -26,13 +26,13 @@
         <![endif]-->
 
     <!-- NAVIGATION -->    
-    <ul class="nav nav-pills navbar-fixed-top nav-custom">
-      <li class="dropdown"><a class="btn-nav nav-active" href="#carousel-content" role="button" data-slide-to="0">Home</a></li>
-      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="1">&Uuml;ber Zotter</b></a></li>
-      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="2">Bad</b></a></li>
-      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="3">Energie</b></a></li>
-      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="4">Zotterpoints</a></li></li>
-      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="5">Aktuelles</a></li></li>
+    <ul class="nav nav-pills navbar-fixed-top nav-custom" id="main_navigation">
+      <li class="dropdown"><a class="btn-nav nav-active" href="#carousel-content" role="button" data-slide-to="0" id="nav_home">Home</a></li>
+      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="1" id="nav_aboutzotter">&Uuml;ber Zotter</b></a></li>
+      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="2" id="nav_bath">Bad</b></a></li>
+      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="3" id="nav_energy">Energie</b></a></li>
+      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="4" id="nav_zotterpoints">Zotterpoints</a></li></li>
+      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="5" id="nav_news">Aktuelles</a></li></li>
     </ul>    
     <!-- !NAVIGATION -->
 
@@ -45,11 +45,11 @@
             <!-- SUB-NAV SLIDER -->
             <div class="col-md-3 times">            
               <div id="carousel-sub-nav" class="carousel slide" data-ride="carousel" data-interval="false">
-                <div class="carousel-inner carousel-sub-nav">
-                  <div class="item sub-nav">                                       
+                <div class="carousel-inner carousel-sub-nav" id="sub_navigation">
+                  <div class="item sub-nav active" id="subnav_home">                                
                   </div>
                   <!-- SUB-NAV - ABOUT US -->
-                  <div class="item sub-nav active">
+                  <div class="item sub-nav" id="subnav_aboutzotter">
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="7">&Uuml;ber uns</a>
                       <br />
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="6">Mitarbeiter</a>
@@ -58,7 +58,7 @@
                   </div>
                   <!-- ENDOF: SUB-NAV - ABOUT US -->
                   <!-- SUB-NAV - BATHROOM -->
-                  <div class="item sub-nav">
+                  <div class="item sub-nav" id="subnav_bath">
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Das Zotterbad</a>
                       <br />
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Badplanung</a>
@@ -86,12 +86,13 @@
 
             <!-- IMAGE SLIDER -->
             <div class="col-md-6">
-                <div id="carousel-generic" class="carousel slide carousel-big" data-ride="carousel" data-interval="false">
+                <div id="carousel-generic" class="carousel slide carousel-big" data-ride="carousel" data-interval="5000">
                 <!-- INDICATORS -->
                 <ol class="carousel-indicators">
                   <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
                   <li data-target="#carousel-generic" data-slide-to="1"></li>
                   <li data-target="#carousel-generic" data-slide-to="2"></li>
+                  <li data-target="#carousel-generic" data-slide-to="4"></li>
                 </ol>
                 <!-- ENDOF: INDICATORS -->
                
@@ -104,13 +105,19 @@
                     </div>
                   </div>
                   <div class="item">
-                    <img src="./img/main01.jpg" alt="...">
+                    <img src="./img/main02.jpg" alt="...">
                     <div class="carousel-caption">
                         <h3>&nbsp;</h3>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="./img/main01.jpg" alt="...">
+                    <img src="./img/main03.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h3>&nbsp;</h3>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="./img/main04.jpg" alt="...">
                     <div class="carousel-caption">
                         <h3>&nbsp;</h3>
                     </div>
@@ -179,21 +186,21 @@
                         <p>
                           Das Wohl unserer Kunden hat für unsere Firma oberste Priorität. Unsere Kunden sind die wichtigsten Personen in unserem Betrieb. Gemeinsam mit unserem Kunden erarbeiten wir eine optimale Lösung. Unsere umfassende und faire Beratung ist auf die Bedürfnisse des Kunden abgestimmt. Unsere Aussagen den Kunden gegenüber sind immer bindend. Wir wollen die Zeit und das Geld unserer Kunden nicht verschwenden. Auch nach der Auftragsabwicklung sind wir zu jeder Zeit zuverlässiger Ansprechpartner für unsere Kunden.
                         </p>
-                        <img src="./img/placeholder_310x330.jpg" alt="Kunde ist K&ouml;nig">
+                        <img src="./img/aboutzotter_01.jpg" alt="Kunde ist K&ouml;nig">
                       </div>
                       <div class="col-md-4">
                         <h4><a href="#carousel-content" role="button" data-slide-to="6"><span class="glyphicon glyphicon-share-alt"></span> Mitarbeiter</a></h4>
                           <p>
                           Kundenzufriedenheit fällt nicht vom Himmel, sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitarbeiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz, der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
                         </p>
-                        <img src="./img/placeholder_310x330.jpg" alt="Zotter - Mitarbeiter">
+                        <img src="./img/aboutzotter_02.jpg" alt="Zotter - Mitarbeiter">
                       </div>
                       <div class="col-md-4">
                         <h4>Qualit&auml;t ist kein Zufall</h4>
                           <p>
                           Für unsere Kunden setzen wir ausschließlich hochwertige Produkte von Marktführern und Spezialisten ein, mit denen wir in einem partnerschaftlichen Verhältnis stehen. Die Produkte unserer ausgewählten Lieferanten in Kombination mit unserem fachlichen Know-how und innovativen Ideen ermöglichen es uns, dem Kunden eine hochwertige Leistung zu bieten.
                         </p>
-                        <img src="./img/placeholder_310x330.jpg" alt="Alles aus einer Hand">
+                        <img src="./img/aboutzotter_03.jpg" alt="Alles aus einer Hand">
                       </div>
                     </div>
                   </div>
@@ -202,25 +209,32 @@
                   <div class="item">
                     <div class="row content">
                       <div class="col-md-4">
-                        <h4><a href="#carousel-content" role="button" data-slide-to="7"><span class="glyphicon glyphicon-share-alt"></span> Das Zotterbad</a></h4>
+                        <h4><a href="#carousel-content" role="button" data-slide-to="7">Das Zotterbad:  Das Bad - aus einer – Hand</a></h4>
                         <p>
-                          Das Wohl unserer Kunden hat für unsere Firma oberste Priorität. Unsere Kunden sind die wichtigsten Personen in unserem Betrieb. Gemeinsam mit unserem Kunden erarbeiten wir eine optimale Lösung. Unsere umfassende und faire Beratung ist auf die Bedürfnisse des Kunden abgestimmt. Unsere Aussagen den Kunden gegenüber sind immer bindend. Wir wollen die Zeit und das Geld unserer Kunden nicht verschwenden. Auch nach der Auftragsabwicklung sind wir zu jeder Zeit zuverlässiger Ansprechpartner für unsere Kunden.
-                        </p>
-                        <img src="./img/placeholder_310x330.jpg" alt="Zotter Bad &amp; Energie">
+                          Es ist schon erstaunlich wie schnell das eigene Bad 25 oder sogar mehr Jahre Jubiläum feiert. Sie träumen von einem schönen großzügigen Bad mit Dampfdusche oder einer gemütlichen Badewanne. Doch wenn es an die Umsetzung geht, ist der Traum häufig schnell ausgeträumt, die Vorstellung oder Erfahrung ist oft das Ende der Renovierungswünsche. Deshalb gibt es für unsere Bad Kunden das " Zotterbad"! Das Bad - aus einer - Hand. Das bedeutet für Sie erhebliche Vorteile, weil Sie es nur mit einen Ansprechpartner zu tun haben. Sie brauchen sich nicht um die Koordinierung der verschiedenen Arbeiten kümmern. Das ist unser Knowhow und unser Job!
+                        </p>                         
+                        <h3>Machen Sie entspannt Urlaub – wir bauen währenddessen Ihr Traum Bad für Sie.</h3>
+                        <br />
+                        <img src="./img/bath_01.jpg" alt="Zotter Bad">
                       </div>
                       <div class="col-md-4">
-                        <h4>Badplanung</h4>
+                        <h4>Badplanung - individuell</h4>
                           <p>
-                          Kundenzufriedenheit fällt nicht vom Himmel,sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitar-beiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz,der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
-                        </p>
-                        <img src="./img/placeholder_310x330.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                          Nachdem wir uns vor Ort mit Ihnen über ihre Bedürfnisse und Wünsche unterhalten haben, bieten wir Ihnen ein überzeugendes Angebot mit einer exakten Badplanung, mit farblich abgestimmten Gestaltungsmöglichkeiten wie Bodenbeläge, Fliesengestaltungen, Malereien, Beleuchtungsideen und vieles mehr. Wir haben uns auf die individuelle 3-D Planung spezialisiert und planen gemeinsam mit Ihnen Ihr Traum Bad, in dem sich jedes Familienmitglied wohl fühlt. In unseren Schauraum können die verschiedensten Materialmuster im Original kombiniert werden.<br />                          
+                          Wir beraten Sie ehrlich und bieten Ihnen Qualität zum fairen Preis. Wir bedienen Sie mit exzellenten Service termingerecht.
+                          </p>
+                          <h3>Einen individuellen Badplanungs- &amp; Beratungstermin bei Ihnen zu Hause können Sie gerne unter <bold>04268/26 44</bold> vereinbaren.</h3>                 
+                        
+                        <img src="./img/bath_02.jpg" alt="3D Badplanung">
                       </div>
                       <div class="col-md-4">
-                        <h4>Das barrierefreie Bad</h4>
-                          <p>
-                          Für unsere Kunden setzen wir ausschließlich hochwertige Produkte von Marktführern und Spezialisten ein,mit  denen wir in einem partnerschaftliehen Verhältnis stehen. Die Produkte unserer ausgewählten  Lieferanten in Kombination mit unserem fachlichen Know-how  und innovativen Ideen ermöglichen es uns, dem Kunden eine hochwertige Leistung zu bieten.
+                        <h4>Staubfrei Arbeiten</h4>                          
+                          <p>                         
+                            Zufriedene Kunden sind die beste Werbung für einen Handwerker. Um dies zu erreichen, arbeiten wir mit den innovativen „Staubfrei Arbeiten System“. Unsere Kunden legen die anfängliche Skepsis wegen eventueller Staubbelästigung schnell ab, wenn diese feststellen, dass beinahe staubfrei gearbeitet wird. 
                         </p>
-                        <img src="./img/placeholder_310x330.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                        <h3>Vertrauen Sie uns, wenn es um eine „saubere“ Badmodernisierung geht.</h3>
+                        <br />
+                        <img src="./img/bath_03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
                       </div>
                     </div>
                   </div>                  
@@ -228,26 +242,37 @@
                   <!-- ENERGY 3 -->
                    <div class="item">
                     <div class="row content">
-                      <div class="col-md-4">
-                        <h4>W&auml;rme aus der Sonne</h4>
+                      <div class="col-md-4 minheight450">
+                        <h4>W&auml;rme- und Energieerzeugung</h4>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
+                          <bold>Damit der nächste Winter keine bösen Überraschungen bringt,</bold>
+                          helfen wir Ihnen die optimale Heizung zu finden. Gemeinsam mit Ihnen streben wir nach maximaler Effizienz bei minimalen Energiekosten. Dabei stellen wir an die handwerkliche Umsetzung unserer Installations- und Montagearbeiten höchste Qualitätsansprüche. 
+                          <br /><br />                       
+                          Sie müssen uns vertrauen können, wenn es um eine der wichtigsten Lösungen für Ihre Gesundheit, Ihr Wohlbefinden und Ihre Brieftasche geht. Wir nehmen uns für Ihre Beratung und Planung Zeit! Es bleiben keine Wünsche offen und die Qualität der Dienstleistung ist mit nichts Anderem zu vergleichen.
+                          <br /><br />
+                          Die Möglichkeiten sind sehr vielfältig. Wir informieren Sie gerne umfassend über die ideale Lösung für Ihre spezifischen Anforderungen – für Neubau oder Sanierung.
                         </p>
-                        <img src="./img/energy_01.jpg" alt="W&auml;rme aus der Sonne">
+                        <img src="./img/energy_01.jpg" alt="W&auml;rme- und Energieerzeugung">
                       </div>
-                      <div class="col-md-4">
-                        <h4>Strom aus der Sonne</h4>
+                      <div class="col-md-4 minheight450">
+                        <h4>W&auml;rme und K&auml;lteverteilung</h4>
                           <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
+                          Fußboden- Wandheizungen- oder Deckenkühlung bieten Heiz- und Kühllösungen, die mit anderen Heizsystemen so nicht zu verwirklichen sind. Fußboden- und Wandheizsysteme erfüllen höchste Ansprüche, keine optisch störenden Heizkörper, Energieeinsparung etc. sind nur einige der Vorteile.
+                          <br />
+                          Für uns steht das „Empfinden“ - der tatsächliche Komfort unserer Kunden - eindeutig im Vordergrund. Deswegen bieten alle Produkte die beste und absolut angenehme Strahlungswärme durch großflächige Temperaturflächen. So werden Fußböden, Wände, Dachschrägen oder Zimmerdecken zu sanft wärmenden „Wohlfühlflächen“, die fast unbemerkt für eine sensationelle Raumatmosphäre sorgen. Wir sind Ihr Experte in Sachen Wärme und Kälteverteilung.
                         </p>
-                        <img src="./img/energy_02.jpg" alt="Strom aus der Sonne">
+                        <img src="./img/energy_02.jpg" alt="W&auml;rme und K&auml;lteverteilung">
                       </div>
-                      <div class="col-md-4">
-                        <h4>W&auml;rme/K&auml;lte-Verteilung</h4>
+                      <div class="col-md-4 minheight450">
+                        <h4>Solar und Photovoltaik</h4>
                           <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
+                          Die Nutzung der Sonnenenergie für Warmwasserbereitung und Raumheizung ist heute bereits eine ausgereifte Möglichkeit, den Verbrauch fossiler Energien zu reduzieren. Eine gut geplante und von professioneller Hand ausgeführte Solaranlage bereitet Warmwasser nicht nur an sonnigen Tagen. Eine Solaranlage zeichnet Komfort und Betriebssicherheit, günstige Betriebskosten, keinerlei Schadstoffemissionen und eine lange Lebensdauer aus!
+                          <br />
+                          <bold>Eine Solaranlage bedeutet ein Stück Unabhängigkeit, denn die Sonne scheint kostenlos.</bold>
+
+                          Eine <bold>Photovoltaikanlage</bold> wandelt die Sonnenenergie durch den photoelektrischen Effekt in Solarzellen in Photovoltaik Modulen mit Hilfe eines Wechselrichters nutzbaren Strom um - dank staatlich garantierter Förderung in Form der Einspeisevergütung (bei Einspeisung ins Stromnetz) und der Möglichkeit zum Eigenverbrauch des erzeugten Solarstroms ist die Investition in Solaranlagen nicht nur nachhaltig, sondern in den meisten Fällen auch wirtschaftlich rentabel.
                         </p>
-                        <img src="./img/energy_03.jpg" alt="W&auml;rme/K&auml;lte-Verteilung">
+                        <img src="./img/energy_03.jpg" alt="Solar und Photovoltaik">
                       </div>
                     </div>
                   </div>
@@ -258,30 +283,30 @@
                       <div class="col-md-12">
                         <img src="./img/zotterpoints.jpg" alt="Zotterpoints">
                         <p>
-                          Gute Handwerker sind wie gute Ärzte,ihre Adressen gibt man nur den besten Freunden. Aus diesem Grund haben wir den wertvollen Tipp entwickelt. Ein Empfehlungs-Gutschein für einen Menschen mit dem Sie es gut meinen. Wir haben uns überlegt wie wir es machen könnten, dass nicht nur wir durch Ihre Empfehlung,sondern auch Sie von Ihrer Weiterempfehlung des Zotter-Teams profitieren. Deshalb haben wir für Ihre Weiterempfehlungen ein Punktesystem eingeführt. Für jeden Auftrag den Sie uns vermitteln bekommen Sie Zotterpoints.
+                          Gute Handwerker sind wie gute Ärzte, ihre Adressen gibt man nur den besten Freunden. Aus diesem Grund haben wir den wertvollen Tipp entwickelt. Ein Empfehlungs-Gutschein für einen Menschen mit dem Sie es gut meinen. Wir haben uns überlegt wie wir es machen könnten, dass nicht nur wir durch Ihre Empfehlung, sondern auch Sie von Ihrer Weiterempfehlung des Zotter-Teams profitieren. Deshalb haben wir für Ihre Weiterempfehlungen ein Punktesystem eingeführt. Für jeden Auftrag den Sie uns vermitteln bekommen Sie Zotter Points. 
                         </p>                        
-                        <h4>1 Zotterpoint ist 150 € unvermittelter Umsatz</h4>
+                        <h4>1 Zotter Point ist € 200,- vermittelter Umsatz</h4>
                       </div>
                     </div>
                     <div class="row content">                      
                       <div class="col-md-4">
                         <h4>Ab 100<span class="glyphicon glyphicon-tint"></span> Zotterpoints</h4>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
+                          Ein Abendessen für 2 Personen
                         </p>
                         <img src="./img/placeholder_230x245.png" alt="Zotter Bad &amp; Energie">
                       </div>
                       <div class="col-md-4">
-                        <h4>Ab 150<span class="glyphicon glyphicon-tint"></span> Zotterpoints</h4>
+                        <h4>Ab 200<span class="glyphicon glyphicon-tint"></span> Zotterpoints</h4>
                           <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
+                         Ein Wellness-Wochenende für zwei Personen in einem ****Hotel, in Österreich
                         </p>
                         <img src="./img/placeholder_230x245.png" alt="Sauberkeit und Umweltbewusstsein">
                       </div>
                       <div class="col-md-4">
                         <h4>Ab 500<span class="glyphicon glyphicon-tint"></span> Zotterpoints</h4>
                           <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
+                          Eine Woche Urlaub für zwei Personen in einem ****Hotel, inklusive Flug, in Europa
                         </p>
                         <img src="./img/placeholder_230x245.png" alt="Kontinuierliche Verbesserung aller Prozesse">
                       </div>
@@ -291,19 +316,69 @@
                   <!-- NEWS 5 -->
                    <div class="item">
                     <div class="row content">
-                    <div class="col-md-3">
+                    <div class="col-md-4">                                      
+                          <div class="newsitem">
+                          <h4>RenoDeco</h4>
+                          <p>
+                            Kreative Wandgestaltung liegt im Trend. Setzen Sie Akzente oder zaubern Sie eine ganz neue Stimmung in Ihr Bad mit RenoDeco!
+                            <br />
+                            <h4>Was ist RenoDeco</h4>
+                            <ul>
+                              <li>Ideales Wandverkleidungsmaterial für die Teilrenovierung im Badezimmer</li>
+                              <li>3 mm starke Aluminium-Verbundplatte mit einseitigem, digitalem Direktdruck</li>
+                              <li>Hochwertige Oberflächenveredelung mit kratzfestem und UV-beständigem Strukturlack</li>
+                              <li>Hygienisch-fugenlose Wandgestaltung mit pflegeleichter Oberfläche</li>
+                              <li>Vielfältige Dekorpalette für die individuelle Badgestaltung</li>
+                              <li>Schnelle Verkleidung großer Wandbereiche durch großformatige Platten (1000 o. 1500 mm Breite x 2550 mm Höhe)</li>
+                              <li>Be- und Verarbeitung direkt vor Ort mit handelsüblichen Werkzeugen – ohne schmutzige Fliesenarbeiten</li>
+                            </ul>
+                          </p>
+                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                          <img src="./img/content02.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                        </div>
                     </div>
-                      <div class="col-md-6">
-                        <h4>Aktuelles</h4>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae magna ipsum. Vivamus vitae mauris non turpis vehicula molestie. Praesent vel nulla eget elit congue tempus. Praesent rhoncus cursus massa quis posuere. Donec at odio at urna lacinia convallis lacinia in ipsum. In tincidunt et diam nec aliquet. Proin vitae lectus id lectus luctus pretium. Sed libero urna, mattis id lobortis non, sodales vel libero.
+                      <div class="col-md-4">
+                        
+                        <div class="newsitem">
+                          <h4>...WO IMMER SIE ANGENEHME STRAHLUNGSWÄRME BENÖTIGEN!</h4>
+                          <p>
+                            Ein wesentlicher Faktor beim Leben im Freien ist selbstverständlich das Wetter bzw. die Temperatur. Genau bei diesem springenden Punkt setzen Klima-Designwände von Harreither an: "Die Aufenthaltszeit des Menschen im Freien zu verlängern!" Vergessen sind Abende, die aufgrund sinkender Temperaturen viel zu früh endeten. Die mobilen Wohlfühlflächen bringen milde Strahlungswärme dorthin, wo sie gebraucht wird.
+                            <br />
+                            <bold>Flexibel, ästhetisch, gesund und wirtschaftlich.</bold>
+                            <br />
+                            <h3>MOBILE STRAHLUNGSWÄRME UND OPTISCHE REIZE FÜR BESONDERE STUNDEN IM FREIEN:</h3>
+                            <ul>
+                              <li>Rasch spürbare Behaglichkeit</li>
+                              <li>Erhöhte Lebensqualität</li>
+                              <li>Dreifaches Sommerfeeling</li>
+                              <li>Modernes Design</li>
+                              <li>Einfachst zu bedienen</li>
+                              <li>Österreichisches Qualtitätsprodukt</li>
+                              <li>CE-zertifiziert</li>
+                            </ul>
 
-Quisque consectetur neque at elit venenatis commodo. Cras eget gravida mauris. Integer augue velit, ultrices in est non, pretium elementum lorem. Sed a aliquam augue. Donec justo lacus, volutpat non tincidunt a, dictum eget nibh. Sed ipsum velit, rutrum congue leo at, mattis mollis ex. Integer consequat enim nec elit vehicula maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus justo felis, tempus at sollicitudin in, euismod non dui. Etiam libero lorem, molestie in diam sit amet, interdum pellentesque arcu. Duis congue volutpat quam quis laoreet. Ut laoreet tellus ut fringilla efficitur. Nullam vitae aliquam odio. Quisque sit amet maximus turpis, eget lobortis ex.
-                        </p>                        
-                        <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                            <h3>DIE EINSATZBEREICHE DER KLIMA-DESIGNWÄNDE SIND VIELSEITIGST:</h3>
+                            <ul>
+                              <li>Privatbereich: Auf Gartenterrassen platziert, können Sie auch an kühleren Tagen oder Abenden die Zeit mit Familie und Freunden verbringen.</li>
+                              <li>Gastronomie: Verwenden Sie die Klima-Designwand als behagliche Trennung in ihrem Gastgarten und forcieren Sie gleichzeitig ihre Marke mit einem individuellen Branding. Visualisieren Sie einfach nur Gemütlichkeit. Oder bieten Sie ihren rauchenden Gästen eine beheizte Lounge im Freien.</li>
+                              <li>Eventbereich: Nützen Sie den Komfort, sowie die energiesparende Betriebsweise und gestalten Sie perfekte Wohlfühlbereiche im Freien oder in Zelten. Ihre Veranstaltungen werden als optisches und behagliches Erlebnis positioniert!</li>
+                              <li>Die Anwendungen von Klima-Designwänden sind beinahe grenzenlos und bieten gestalterische Freiheiten für Erlebnisabende.</li>
+                            </ul>
+                          </p>
+                          <br />
+                        </div>
                       </div>
-                      <div class="col-md-3">
-                    </div>
+                      <div class="col-md-4">
+                        <div class="newsitem">
+                          <h4>Aktuelle Fotogalerien</h4>
+                          <ul>
+                            <li><a href="#">Eisstockschießen 2015</a></li>
+                            <li><a href="#">Kart Rennen 2014</a></li>
+                            <li><a href="#">20 Jahre Jubiläum Roland</a></li>
+                            <li><a href="#">10 Jahre Jubiläum Michael</a></li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <!-- ENDOF: NEWS -->
