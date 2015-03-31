@@ -6,7 +6,8 @@ var gulp = require('gulp');
 	concat = require('gulp-concat');
 	minifycss = require('gulp-minify-css');
 	copy = require('gulp-copy');
-	connect = require('gulp-connect');
+	connect = require('gulp-connect-php');
+	livereload = require('gulp-livereload');
 
 var outputDir = './dist/';
 
@@ -45,25 +46,41 @@ gulp.task('html', function() {
 	.pipe(copy(outputDir));
 });
 
+gulp.task('php', function() {
+	return gulp.src('./*.php')
+	.pipe(copy(outputDir));
+});
+
 gulp.task('reload', function () {
   gulp.src('./dist/*.html')
     .pipe(connect.reload());
 });
 
-gulp.task('connect', function() {
+/*gulp.task('connect', function() {
   connect.server({
     root: outputDir,
     livereload: true
   });
-});
+});*/
 
+gulp.task('connect', function() {
+  connect.server({
+    hostname: '0.0.0.0',
+    bin: 'C:/php/php.exe',
+    ini: 'C:/php/php.ini',
+    port: 8000,
+    base: outputDir,
+    livereload: true
+ 	});
+ });
 
 gulp.task('watch', function () {
 	gulp.watch('src/css/*.css', ['css', 'img', 'reload']);
 	gulp.watch('src/js/*.js', ['js']);
 	gulp.watch('*.html', ['html', 'img' , 'reload']);
+	gulp.watch('*.php', ['php', 'img' , 'reload']);
 	gulp.watch('*.jpg', ['img', 'reload']);
 	gulp.watch('*.png', ['img', 'reload']);
 });
 
-gulp.task('default', ['html', 'css', 'vendor', 'fonts', 'img', 'js', 'connect', 'watch']);
+gulp.task('default', ['html', 'php', 'css', 'vendor', 'fonts', 'img', 'js', 'connect', 'watch']);

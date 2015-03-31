@@ -1,3 +1,5 @@
+<?php require 'contact.php'; ?>
+
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="de"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="de"> <![endif]-->
@@ -54,24 +56,24 @@
                       <br />
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="6">Mitarbeiter</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Kontakt</a>                    
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="8">Kontakt</a>                    
                   </div>
                   <!-- ENDOF: SUB-NAV - ABOUT US -->
                   <!-- SUB-NAV - BATHROOM -->
                   <div class="item sub-nav" id="subnav_bath">
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Das Zotterbad</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="9">Das Zotterbad</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Badplanung</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="10">Badplanung</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Barrierefrei</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="11">Barrierefrei</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Das kleine Bad</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="12">Das kleine Bad</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Wellness</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="13">Wellness</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Wanne raus - Dusche rein</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="14">Wanne raus - Dusche rein</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#">Staubfrei Arbeiten</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="15">Staubfrei Arbeiten</a>
                   </div>
                   <!-- ENDOF: SUB-NAV - BATHROOM -->
                   <div class="item">
@@ -333,8 +335,6 @@
                               <li>Be- und Verarbeitung direkt vor Ort mit handelsüblichen Werkzeugen – ohne schmutzige Fliesenarbeiten</li>
                             </ul>
                           </p>
-                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
-                          <img src="./img/content02.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
                         </div>
                     </div>
                       <div class="col-md-4">
@@ -481,40 +481,233 @@
                     </div>
                   </div>
                   <!-- END: ABOUTUS 7 -->
-                  <!--  8 -->
+                  <!--  CONTACT FORM 8 -->
                   <div class="item">                    
-                   <div class="row content">
-                      <div class="col-md-4">                       
-                        <img src="./img/placeholder_310x330.jpg" alt="Zotterbad">
-                      </div>
-                      <div class="col-md-4">                       
-                       <p>
-                       Sollten Sie schon einmal ein Bad errichtet  haben, werden Sie sich noch daran erinnern wen Sie dazu benötigt haben - Installateur, Maurer, Elektriker, Fliesenleger, Tischler & Maler. Zu all diesen Handwerkern mussten Sie Kontakt aufnehmen - Kostenvoranschläge einholen, Termine verein-baren oder auch noch deren Schmutz und Verpackungsmüll beseitigen. Schon alleine diese Vorstellung oder Erfahrung ist oft das Ende der Renovierungswünsche. 
+                   <div class="row content">                      
+                      <form role="form" action="index.php" method="post" >
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label for="InputName">Name</label>
+                            <div class="input-group">
+                              <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" value="<?php echo htmlspecialchars($_POST['InputName']); ?>" required >                              
+                              <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                              <?php echo "<p class='text-danger'>$errName</p>";?>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="InputEmail">Email</label>
+                            <div class="input-group">
+                              <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+                              <?php echo "<p class='text-danger'>$errEmail</p>";?>
+                              <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+                          </div>
+                          <div class="form-group">
+                            <label for="InputMessage">Nachricht</label>
+                            <div class="input-group">
+                              <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                              <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+                          </div>
+                          <div class="form-group">
+                            <label for="InputReal">4+3? (Simple Spam Checker)</label>
+                            <div class="input-group">
+                              <input type="text" class="form-control" name="InputReal" id="InputReal" required>
+                              <?php echo "<p class='text-danger'>$errHuman</p>";?>
+                              
+                              </div>
+                          </div>
+                          <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+                          <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2">
+                                <?php echo $result; ?>
+                            </div>
+                          </div>
 
-Deshalb gibt es für unsere Bad Kunden das " ZotterBad " ! Das Bad aus einer Hand. Das bedeutet für Sie erhebliche Vorteile, weil Sie es nur mit einen Ansprechpartner zu tun haben. Sie brauchen sich nicht um die Koordinierung der verschiedenen Arbeiten kümmern.
-                        </p>
-                        <img src="./img/placeholder_310x330.jpg" alt="Zotterbad">
-
-
-
-
-                      </div>
-                      <div class="col-md-4">                       
-                        <img src="./img/placeholder_310x330.jpg" alt="Zotterbad">
-                      </div>                                         
+                        </div>
+                      </form>
+                      <hr class="featurette-divider hidden-lg">
+                      <div class="col-lg-5 col-md-push-1">
+                        <address>
+                        <h3>Adresse</h3>
+                        <p class="lead">
+                          Zotter - Bad &amp; Energie<br>
+                          9360 Friesach</a><br>
+                          Tel.: +43 (0)4268 / 26 44<br>
+                          Tel.: +43 (0)4268 / 26 44 - 44</p>
+                        </address>
+                      </div>                                        
                     </div>
                   </div>
-                  <!-- END:  8-->
+                  <!-- END: CONTACT FORM 8-->
+                  <!--  ZOTTERBAD 9 -->
+                  <div class="item">                    
+                   <div class="row content">
+                     <div class="col-md-4">
+                          <h4>Zotter Bad: <p class="black">Das Bad aus einer Hand!</p></h4>
+                          <p>
+                            Unser Ziel ist es Ihnen eine neue Wohlfühl – Oase zu schaffen, in der Sie sich entspannen und ausruhen können. Dabei achten wir nicht nur auf Design und praxisorientierter Funktionalität, sondern bedenken auch zukünftige Bedürfnisse. Auch die Arbeitsschritte während des Umbaus oder der Errichtung Ihres Wohlfühl-Badezimmers, sollten für Sie zu keinem Stressfaktor werden. Wir wissen, dass zufriedene Kunden unser wertvollstes Kapital sind und wir sind überzeugt, dass wir das nur mit kompetenter Beratung und sauberer Ausführung erreichen. Als Premium-Baddesigner sind Melanie und Selina Zotter unter anderem auf individuelle Badplanung spezialisiert. Sie werden Augen machen - bei diesen detaillierten Planungen bleibt kein Wunsch offen. Unabhängig vom Budget kann so ein Bad gestaltet werden – indem Sie sich einfach wohl fühlen und vom stressigen Alltag abschalten können.
+                          </p>
+                          <h3>Machen Sie entspannt Urlaub – wir bauen währenddessen Ihr Traum Bad für Sie.</h3>
+                          <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                      </div>
+                      <div class="col-md-4">
+                          
+                          <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                      </div>
+                      <div class="col-md-4">
+                          
+                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      </div>                 
+                    </div>
+                  </div><!-- END: ZOTTERBAD 9-->
+                  <!--  PLANING 10 -->
+                  <div class="item">                    
+                   <div class="row content">
+                     <div class="col-md-4">
+                          <h4>Badplanung - individuell !</h4>
+                          <p>
+                            Ob  Familien-, Single- oder Wellnessbad, barrierefreies oder ein kleines Gäste Bad ... es ist nicht einfach, die richtigen Kombinationen für sein eigenes Bad zu finden.<br />
+                            Deshalb haben wir uns darauf spezialisiert, für jeden Kundenwunsch das perfekte Traumbad zu planen.<br />
+                            <br /> 
+                            Unserer Meinung nach ist das Bad Mittelpunkt des privaten Lebensraums, der sich in Richtung Schlafen, Fitness und Wellness öffnen wird. Ein Traumbad soll Urlaubsgefühle wecken und versuchen, diese temporäre Gefühlswelt der Tiefenentspannung zu konservieren und wiederzubringen.<br />
+                            <br /> 
+                            Das private Badezimmer entwickelt sich stetig weiter zu einer Erholungswelt, die Platz bietet für die Gesundheitsvorsorge und ganz persönliche Baderituale. Als Teil einer intimen Wohnsphäre tanken die Menschen in ihrem Bad neue Lebensenergie und schaffen sich so einen Ort für mehr Lebensqualität. Mit anderen Worten: Urlaub im eigenen Bad. 
+                          </p>
+                          <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                      </div>
+                      <div class="col-md-4">
+                          
+                          <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                      </div>
+                      <div class="col-md-4">
+                          
+                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      </div>                 
+                    </div>
+                  </div><!-- END: PLANING 10 -->
+                  <!--  BARRIERFREE 11 -->
+                  <div class="item">                    
+                   <div class="row content">
+                     <div class="col-md-4">
+                          <h4>Barrierefrei Leben ohne Einschränkung.</h4>
+                          <h3>Vertrauen Sie uns, wenn es um eine „saubere“ Badmodernisierung geht.</h3>
+                            <p>
+                            Barrierefreies Wohnen gewinnt im Hinblick auf die Alterspyramide immer mehr an Bedeutung und stellt speziell bei der Badausstattung besondere Anforderungen.<br />
+                            <br />
+                            Während junge Menschen das Badezimmer immer intensiver auch zur Entspannung nutzen, bedeutet Baden oder Duschen für viele ältere Menschen eine erhebliche Anstrengung. Niemand ist davor gefeit, durch Krankheit oder einem Unfall seine Mobilität zu verlieren.<br />
+                            <br />
+                            Zotterbad baut Badezimmer, die speziell auf solche Bedürfnisse zugeschnitten sind und durch viele Details das Leben erleichtern. Bei uns gibt es eine große Auswahlmöglichkeit Ihr Badezimmer in einem schönen Design barrierefrei zu gestalten.<br />
+                            <br />
+                            Beim Seniorenbad geht es vor allem darum, dem Benutzer optimale Sicherheit und kleine Hilfen zu bieten, wie zum Beispiel ausreichend groß dimensionierte Haltegriffe und rutschfeste bodenebene Duschplatten sowie ausreichende Sitzmöglichkeiten. 
+                          </p>  
+                      </div>
+                      <div class="col-md-4">
+                                                  
+                      </div>
+                      <div class="col-md-4">
+
+                      </div>                 
+                    </div>
+                  </div><!-- END: BARRIERFREE 11 --> 
+                  <!--  SMALLBATH 12 -->
+                  <div class="item">                    
+                   <div class="row content">
+                     <div class="col-md-4">
+                          <h4>Das Kleine Bad</h4>
+                          <p>
+                            Ihr Bad ist Klein, schmal, und vielleicht auch ohne Fenster – doch das ist noch lange kein Grund, das Bad stiefmütterlich zu behandeln. Auch kleine Badezimmer haben die Chance, groß rauszukommen, wenn man sie liebevoll und mit genügend Stauraum einrichtet. Kleine Badezimmer brauchen vor allem viel Stauraum, der gleichzeitig als Nutzfläche dient.  Kleine Badezimmer, die auch noch die Waschmaschine beherbergen müssen, können gar nicht schön aussehen? Aber klar doch. Man braucht nur eine kompetente fachgerechte Beratung vor Ort. 
+                          </p>                          
+                          <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                      </div>
+                      <div class="col-md-4">
+                          <h4>Duschen &amp; Baden</h4>
+                          <p>
+                            Wer für gewöhnlich eine erfrischende Dusche bevorzugt, in der kalten Jahreszeit aber gemütliche Wannenbäder liebt, stand bislang vor dem Problem „entweder – oder“. Mittlerweile gibt es eine Lösung, die beides zulässt, Duschen und Baden. Die Großraum-Dusche kann in eine absolut dichte Wohlfühlwanne verwandelt werden. Ein All – inklusive Lösung für Ihr Bad. Ein überzeugendes Argument wenn Sie ein eher kleines Bad haben und trotzdem von einem feinen Wellnessbereich in Ihrem Bad träumen. Bei einer niedrigen Einstiegshöhe genießen Sie eine erfrischende Dusche oder ein herrlich entspannendes Vollbad.<br />
+                            <br /> 
+                            Die Devise: auf kleinstem Raum größtmöglichen Genuss und Spaß haben und Tiefenentspannung zu erreichen.
+                          </p>                          
+                          <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                      </div>
+                      <div class="col-md-4">
+                          
+                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      </div>                 
+                    </div>
+                  </div><!-- END: SMALLBATH 12 -->       
+                  <!--  WELLNESS 13 -->
+                  <div class="item">                    
+                   <div class="row content">
+                     <div class="col-md-4">
+                          <h4>Wellness</h4>
+                          <p>
+                            Oft eilen wir durch unseren Alltag, finden wenig Ruhe und Entspannung. Deswegen ist es wichtig seine Energiereserven täglich zu füllen. Wellness Zuhause ist eine einfache und zeitsparende Möglichkeit dazu. Ob Sie nun Ihr Immunsystem in einem Dampfbad oder Sauna trainieren - in einem Whirlpool Ihre Rückenmuskulatur entspannen möchten - es gibt viele Einsatzmöglichkeiten für Ihr Bad. Auch in kleinen Räumen!<br />
+                            <br />
+                            Sie sehnen sich nach Wellness, Stressbewältigung, Erholung und Gesundheit?<br />
+                            <br />
+                            Gönnen Sie sich eine ganz bewusste Auszeit! Türe schließen und abtauchen - in Ihrem eigenen privaten Spa!
+                          </p>                          
+                          <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                      </div>
+                      <div class="col-md-4">                                                   
+                          <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                      </div>
+                      <div class="col-md-4">                          
+                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      </div>                 
+                    </div>
+                  </div><!-- END: WELLNESS 13 -->
+                  <!--  SWAP 14 -->
+                  <div class="item">                    
+                   <div class="row content">
+                     <div class="col-md-4">
+                          <h4>Wanne raus – Dusche rein</h4>
+                          <p>
+                            Sie benötigen mehr Platz im Bad und Sie möchten einen leichteren Einstieg in ihre Dusche? Wir bieten Ihnen eine Teilmodernisierung – und das ganz nach Ihren Wünschen und Bedürfnissen.<br />
+                            Gerade für Senioren ist es wichtig, die Dusche bequem erreichen zu können. Deshalb sollte die Dusche möglichst ebenmäßig und ohne Rutschgefahr zu betreten sein. Abhilfe schafft hier der Austausch der vorhandenen Wanne gegen eine bequem erreichbare und barrierefreie Dusche mit niedrigem Zugang: 
+                            Ohne viel Schmutz ersetzen wir Ihre alte Wanne oder Dusche durch eine neue Dusche -Barrierefrei, rutschhemmend, schnell und in zeitlosem Design.<br />
+                            <br />
+                            Die alte Dusche oder Badewanne wird entfernt, Rohre werden bei Bedarf neu verlegt.<br />
+                            Boden, Decke und Fließen bleiben bestehen. Wir können die neue Dusche selbstverständlich so produzieren, dass diese die Öffnung Ihrer alten Dusche überdeckt oder er wird durch einen Klickboden ersetzt. <br />
+                            Die Wände werden mit speziellen fugenlosen Patten verkleidet und die Wand Ihrer barrierefreien Dusche erscheint in neuem Glanz zudem ist sie noch superleicht zu pflegen und die perfekte Lösung zu ihrem System. Es ist daher nicht zwingend erforderlich, das ganze Badezimmer zu renovieren.
+                          </p>                          
+                          <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                      </div>
+                      <div class="col-md-4">                                                   
+                          <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                      </div>
+                      <div class="col-md-4">                          
+                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      </div>                 
+                    </div>
+                  </div><!-- END: SWAP 14 -->
+                  <!--  DUSTLESS 15 -->
+                  <div class="item">                    
+                   <div class="row content">
+                     <div class="col-md-4">
+                          <h4>Staubfrei Arbeiten</h4>
+                          <h3>Vertrauen Sie auf unser Knowhow, wenn es um eine „saubere“ Badmodernisierung geht.</h3>
+                          <p>                            
+                            Zufriedene Kunden sind die beste Werbung für einen Handwerker. Um dies zu erreichen, arbeiten wir mit den innovativen „Staubfrei Arbeiten System“. Unsere Kunden legen die anfängliche Skepsis wegen eventueller Staubbelästigung schnell ab, wenn diese feststellen, dass beinahe staubfrei gearbeitet wird.
+                          </p>
+                                                  
+                          <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                      </div>
+                      <div class="col-md-4">
+                          <h4>Das „Staubfrei Arbeiten Konzept“: </h4>
+                          <ul>
+                            <li>Monteure tragen Überziehschuhe, bis das Schutzvlies ausgelegt ist.</li>
+                            <li>Mit dem Schutzvlies werden die Böden und Treppen während der Bauarbeiten abgedeckt.</li>
+                            <li>Der Türrahmenschutz sichert die wertvollen Türstöcke vor Beschädigung.</li>
+                            <li>Mit der Staubschutztür wird sichergestellt, dass der Staub nicht in den Wohnbereich dringt.</li>
+                            <li>Herzstück des "Staubfrei Arbeiten Konzepts“ sind die Luftreinigungsgeräte wie Staubschlucker, Staubabsaugung, Staubfresser und Airclean.</li>
+                          </ul>                                           
+                          <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                      </div>
+                      <div class="col-md-4">                          
+                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      </div>                 
+                    </div>
+                  </div><!-- END: DUSTLESS 15 --> 
                 </div>
-               
-                <!-- Controls -->
-                <!--
-                <a class="left carousel-control" href="#carousel-content" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-content" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>-->
               </div> <!-- Carousel -->
            </div>
       </div>
