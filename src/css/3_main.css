@@ -91,6 +91,11 @@ li.dropdown > a.btn-nav:focus {
   text-align: justify;
 }
 
+.reset > p {
+  padding: 0px;
+  min-height: 100px;
+}
+
 .col-md-4 > img {
   border: 15px solid #ffffff;
 }
@@ -110,7 +115,6 @@ footer {
 footer > p {
   text-align: center;
   color: #ffffff;
-  /*background-color: #df2c23;*/
 }
 
 footer > p > a {
@@ -118,7 +122,6 @@ footer > p > a {
 }
 
 .carousel-user {
-  /*border: 15px solid #ffffff;*/
   margin-top: 30px;
 }
 
@@ -143,32 +146,6 @@ footer > p > a {
   border-color: #080808;
   background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);  
 }
-
-/*
-.nav-pills > li > a {
-  border-radius: 0px;
-  background: none;
-  color: #fff;
-  border-bottom: 5px solid #fff;
-}
-
-.nav-pills > li > a:hover {
-  background-color: transparent;
-  border-radius: 0px;
-  border-bottom: 5px solid #df2c23;
-  color: #fff;
-}
-
-.nav-pills > li > a:visited {
-  
-  border-radius: 0px;
-  border-bottom: 5px solid #df2c23;
-  color: #fff;
-}
-
-.nav-active {
-  border-bottom: solid #df2c23 5px;
-}*/
 
 .nav-fix {
   margin-top: -7px;
@@ -247,6 +224,15 @@ pre {
   font-variant: normal;
   font-weight: 400;
   line-height: 18px;
+}
+li {
+  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 0px;
 }
 
 p.black {

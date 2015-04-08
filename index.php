@@ -291,26 +291,26 @@
                       </div>
                     </div>
                     <div class="row content">                      
-                      <div class="col-md-4">
+                      <div class="col-md-4 reset">
                         <h4>Ab 100<span class="glyphicon glyphicon-tint"></span> Zotterpoints</h4>
                         <p>
                           Ein Abendessen für 2 Personen
                         </p>
-                        <img src="./img/placeholder_230x245.png" alt="Zotter Bad &amp; Energie">
+                        <img src="./img/zotterpoints01.jpg" alt="Abendessen f&uuml;r 2 Personen">
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-4 reset">
                         <h4>Ab 200<span class="glyphicon glyphicon-tint"></span> Zotterpoints</h4>
                           <p>
                          Ein Wellness-Wochenende für zwei Personen in einem ****Hotel, in Österreich
                         </p>
-                        <img src="./img/placeholder_230x245.png" alt="Sauberkeit und Umweltbewusstsein">
+                        <img src="./img/zotterpoints02.jpg" alt="Wellness Wochenende">
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-4 reset">
                         <h4>Ab 500<span class="glyphicon glyphicon-tint"></span> Zotterpoints</h4>
                           <p>
                           Eine Woche Urlaub für zwei Personen in einem ****Hotel, inklusive Flug, in Europa
                         </p>
-                        <img src="./img/placeholder_230x245.png" alt="Kontinuierliche Verbesserung aller Prozesse">
+                        <img src="./img/zotterpoints03.jpg" alt="Urlaub inklusive Flug">
                       </div>
                     </div>
                   </div>
