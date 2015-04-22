@@ -34,7 +34,7 @@
       <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="2" id="nav_bath">Bad</b></a></li>
       <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="3" id="nav_energy">Energie</b></a></li>
       <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="4" id="nav_zotterpoints">Zotterpoints</a></li></li>
-      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="5" id="nav_news">Aktuelles</a></li></li>
+      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="17" id="nav_news">Aktuelles</a></li></li>
     </ul>    
     <!-- !NAVIGATION -->
 
@@ -76,11 +76,15 @@
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="15">Staubfrei Arbeiten</a>
                   </div>
                   <!-- ENDOF: SUB-NAV - BATHROOM -->
-                  <div class="item">
-                    <div class="sub-nav">
-                      <a href="#">Kontakt</a>
-                    </div>
+                  <!-- SUB-NAV - NEWS -->
+                   <div class="item sub-nav" id="subnav_news">
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="17">RenoDeco</a>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="18">Klima Design Wände</a>
+                      <br /><br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="16">Bildergalerie</a>                  
                   </div>
+                  <!-- ENDOF: SUB-NAV - NEWS -->
                 </div>
               </div>
             </div>
@@ -133,9 +137,8 @@
                 <a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">
                   <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
-              </div> 
-              <!-- ENDOF: IMAGE-Carousel -->
-           </div>
+              </div>               
+           </div><!-- ENDOF: IMAGE-Carousel -->
             <div class="col-md-3 logo">
             </div>
           </div>
@@ -191,7 +194,7 @@
                         <img src="./img/aboutzotter_01.jpg" alt="Kunde ist K&ouml;nig">
                       </div>
                       <div class="col-md-4">
-                        <h4><a href="#carousel-content" role="button" data-slide-to="6"><span class="glyphicon glyphicon-share-alt"></span> Mitarbeiter</a></h4>
+                        <h4><a href="#carousel-content" role="button" data-slide-to="6">Mitarbeiter</a></h4>
                           <p>
                           Kundenzufriedenheit fällt nicht vom Himmel, sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitarbeiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz, der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
                         </p>
@@ -284,6 +287,7 @@
                     <div class="row content">
                       <div class="col-md-12">
                         <img src="./img/zotterpoints.jpg" alt="Zotterpoints">
+                        <br /><br />
                         <p>
                           Gute Handwerker sind wie gute Ärzte, ihre Adressen gibt man nur den besten Freunden. Aus diesem Grund haben wir den wertvollen Tipp entwickelt. Ein Empfehlungs-Gutschein für einen Menschen mit dem Sie es gut meinen. Wir haben uns überlegt wie wir es machen könnten, dass nicht nur wir durch Ihre Empfehlung, sondern auch Sie von Ihrer Weiterempfehlung des Zotter-Teams profitieren. Deshalb haben wir für Ihre Weiterempfehlungen ein Punktesystem eingeführt. Für jeden Auftrag den Sie uns vermitteln bekommen Sie Zotter Points. 
                         </p>                        
@@ -292,21 +296,21 @@
                     </div>
                     <div class="row content">                      
                       <div class="col-md-4 reset">
-                        <h4>Ab 100<span class="glyphicon glyphicon-tint"></span> Zotterpoints</h4>
+                        <h4>Ab 100 Zotterpoints</h4>
                         <p>
                           Ein Abendessen für 2 Personen
                         </p>
                         <img src="./img/zotterpoints01.jpg" alt="Abendessen f&uuml;r 2 Personen">
                       </div>
                       <div class="col-md-4 reset">
-                        <h4>Ab 200<span class="glyphicon glyphicon-tint"></span> Zotterpoints</h4>
+                        <h4>Ab 200 Zotterpoints</h4>
                           <p>
                          Ein Wellness-Wochenende für zwei Personen in einem ****Hotel, in Österreich
                         </p>
                         <img src="./img/zotterpoints02.jpg" alt="Wellness Wochenende">
                       </div>
                       <div class="col-md-4 reset">
-                        <h4>Ab 500<span class="glyphicon glyphicon-tint"></span> Zotterpoints</h4>
+                        <h4>Ab 500 Zotterpoints</h4>
                           <p>
                           Eine Woche Urlaub für zwei Personen in einem ****Hotel, inklusive Flug, in Europa
                         </p>
@@ -318,67 +322,7 @@
                   <!-- NEWS 5 -->
                    <div class="item">
                     <div class="row content">
-                    <div class="col-md-4">                                      
-                          <div class="newsitem">
-                          <h4>RenoDeco</h4>
-                          <p>
-                            Kreative Wandgestaltung liegt im Trend. Setzen Sie Akzente oder zaubern Sie eine ganz neue Stimmung in Ihr Bad mit RenoDeco!
-                            <br />
-                            <h4>Was ist RenoDeco</h4>
-                            <ul>
-                              <li>Ideales Wandverkleidungsmaterial für die Teilrenovierung im Badezimmer</li>
-                              <li>3 mm starke Aluminium-Verbundplatte mit einseitigem, digitalem Direktdruck</li>
-                              <li>Hochwertige Oberflächenveredelung mit kratzfestem und UV-beständigem Strukturlack</li>
-                              <li>Hygienisch-fugenlose Wandgestaltung mit pflegeleichter Oberfläche</li>
-                              <li>Vielfältige Dekorpalette für die individuelle Badgestaltung</li>
-                              <li>Schnelle Verkleidung großer Wandbereiche durch großformatige Platten (1000 o. 1500 mm Breite x 2550 mm Höhe)</li>
-                              <li>Be- und Verarbeitung direkt vor Ort mit handelsüblichen Werkzeugen – ohne schmutzige Fliesenarbeiten</li>
-                            </ul>
-                          </p>
-                        </div>
-                    </div>
-                      <div class="col-md-4">
-                        
-                        <div class="newsitem">
-                          <h4>...WO IMMER SIE ANGENEHME STRAHLUNGSWÄRME BENÖTIGEN!</h4>
-                          <p>
-                            Ein wesentlicher Faktor beim Leben im Freien ist selbstverständlich das Wetter bzw. die Temperatur. Genau bei diesem springenden Punkt setzen Klima-Designwände von Harreither an: "Die Aufenthaltszeit des Menschen im Freien zu verlängern!" Vergessen sind Abende, die aufgrund sinkender Temperaturen viel zu früh endeten. Die mobilen Wohlfühlflächen bringen milde Strahlungswärme dorthin, wo sie gebraucht wird.
-                            <br />
-                            <bold>Flexibel, ästhetisch, gesund und wirtschaftlich.</bold>
-                            <br />
-                            <h3>MOBILE STRAHLUNGSWÄRME UND OPTISCHE REIZE FÜR BESONDERE STUNDEN IM FREIEN:</h3>
-                            <ul>
-                              <li>Rasch spürbare Behaglichkeit</li>
-                              <li>Erhöhte Lebensqualität</li>
-                              <li>Dreifaches Sommerfeeling</li>
-                              <li>Modernes Design</li>
-                              <li>Einfachst zu bedienen</li>
-                              <li>Österreichisches Qualtitätsprodukt</li>
-                              <li>CE-zertifiziert</li>
-                            </ul>
-
-                            <h3>DIE EINSATZBEREICHE DER KLIMA-DESIGNWÄNDE SIND VIELSEITIGST:</h3>
-                            <ul>
-                              <li>Privatbereich: Auf Gartenterrassen platziert, können Sie auch an kühleren Tagen oder Abenden die Zeit mit Familie und Freunden verbringen.</li>
-                              <li>Gastronomie: Verwenden Sie die Klima-Designwand als behagliche Trennung in ihrem Gastgarten und forcieren Sie gleichzeitig ihre Marke mit einem individuellen Branding. Visualisieren Sie einfach nur Gemütlichkeit. Oder bieten Sie ihren rauchenden Gästen eine beheizte Lounge im Freien.</li>
-                              <li>Eventbereich: Nützen Sie den Komfort, sowie die energiesparende Betriebsweise und gestalten Sie perfekte Wohlfühlbereiche im Freien oder in Zelten. Ihre Veranstaltungen werden als optisches und behagliches Erlebnis positioniert!</li>
-                              <li>Die Anwendungen von Klima-Designwänden sind beinahe grenzenlos und bieten gestalterische Freiheiten für Erlebnisabende.</li>
-                            </ul>
-                          </p>
-                          <br />
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="newsitem">
-                          <h4>Aktuelle Fotogalerien</h4>
-                          <ul>
-                            <li><a href="#">Eisstockschießen 2015</a></li>
-                            <li><a href="#">Kart Rennen 2014</a></li>
-                            <li><a href="#">20 Jahre Jubiläum Roland</a></li>
-                            <li><a href="#">10 Jahre Jubiläum Michael</a></li>
-                          </ul>
-                        </div>
-                      </div>
+                      &nbsp;
                     </div>
                   </div>
                   <!-- ENDOF: NEWS -->
@@ -389,18 +333,21 @@
                         <a href="#" data-toggle="modal" data-target="#employee-01"><img src="./img/employee-01.jpg" alt="Roman Zotter" class="img-employee"></a>
                         <a href="#" data-toggle="modal" data-target="#employee-02"><img src="./img/employee-04.jpg" alt="Selina Zotter" class="img-employee"></a>
                         <a href="#" data-toggle="modal" data-target="#employee-03"><img src="./img/employee-07.jpg" alt="Stefan Pirzl" class="img-employee"></a>
+                        <a href="#" data-toggle="modal" data-target="#employee-10"><img src="./img/employee-10.jpg" alt="" class="img-employee"></a>
                       </div>
                       <div class="col-md-2">                       
                         <a href="#" data-toggle="modal" data-target="#employee-04"><img src="./img/employee-02.jpg" alt="Hildegard Zotter" class="img-employee"></a>
                         <a href="#" data-toggle="modal" data-target="#employee-05"><img src="./img/employee-05.jpg" alt="Roland Schlintl" class="img-employee"></a>
                         <a href="#" data-toggle="modal" data-target="#employee-06"><img src="./img/employee-08.jpg" alt="Christoph Sabitzer" class="img-employee"></a>
+                        <img src="./img/employee-empty.jpg" alt="" class="img-employee">
                       </div>
                       <div class="col-md-2">                       
                         <a href="#" data-toggle="modal" data-target="#employee-07"><img src="./img/employee-03.jpg" alt="Melanie Zotter" class="img-employee"></a>
                         <a href="#" data-toggle="modal" data-target="#employee-08"><img src="./img/employee-06.jpg" alt="Michael Baumschlager" class="img-employee"></a>
                         <a href="#" data-toggle="modal" data-target="#employee-09"><img src="./img/employee-09.jpg" alt="Meinhard Pichler" class="img-employee"></a>
+                        <img src="./img/employee-empty.jpg" alt="" class="img-employee">
                       </div>
-                      <div class="col-md-2">
+                      <div class="col-md-2">                    
                       </div>
                       <div class="col-md-4">
                         <p>
@@ -434,107 +381,75 @@
                       <div class="col-md-4">
                         <img src="./img/aboutus_outside.jpg" alt="Aussenansicht des Betriebs">
                       </div>                                        
-                    </div>
-                    <div class="row content">
-                      <div class="col-md-4 aboutus">
-                        <h4>Bad &amp; Wellness</h4>
-                        <p>
-                          Schauraum mit Beratung und 3D-Planung, Komplettbad , – staubfrei ! Bad Modernisierung, Teilmodernisierung, Barrierefreie Bäder, WC Anlagen, Wellness-Bereiche, Dampfbäder und –duschen, Whirlpool und vieles mehr
-                        </p>
-                        <h4>Wärmepumpe</h4>
-                        <p>
-                          Luft- , Wasser-, Sole-Wärmepumpen, Flächenkollektoren, Tiefenbohrung für Neubau und Sanierung, CO2-Sonde und Kühlen.
-                        </p>
-                        <h4>Biomasse</h4>
-                        <p>
-                          Pellets-, Hackgut-, Stückholz-Vergaser- und Kombi-Heizungen
-                        </p>
-                      </div>
-                      <div class="col-md-4 aboutus">
-                        <h4>Fossile Brennstoffe</h4>
-                        <p>
-                          Öl-Niedertemperatur-, Öl-Brennwert und Gas-Brennwert-Heizungen
-                        </p>
-                        <h4>Heizsysteme</h4>
-                        <p>
-                          Fußboden-, Wand- und Deckenheizung sowie auch Kühlung
-                        </p>
-                        <h4>Solar</h4>
-                        <p>
-                          Raumheizung und Warmwasseraufbereitung, Kühlen, Photovoltaik
-                        </p>
-                      </div>
-                      <div class="col-md-4 aboutus">
-                        <h4>Bad &amp; Wellness</h4>
-                        <p>
-                          Wohnraumlüftung, Grauwasser- und Regenwassernutzung
-                        </p>
-                        <h4>Lüftungstechnik</h4>
-                        <p>
-                          Wohnraumlüftung
-                        </p>
-                        <h4>Service</h4>
-                        <p>
-                          Reparaturen
-                        </p>
-                      </div>
-                    </div>
+                    </div>                    
                   </div>
                   <!-- END: ABOUTUS 7 -->
                   <!--  CONTACT FORM 8 -->
                   <div class="item">                    
-                   <div class="row content">                      
-                      <form role="form" action="index.php" method="post" >
+                   <div class="row content">
+                      <div class="col-lg-6">
+                        <br />
+                        <h4>IMPRESSUM</h4>
+                          <address>
+                            Zotter - Bad &amp; Energie<br>
+                            9360 Friesach</a><br>
+                            Tel.: +43 (0)4268 / 26 44<br>
+                            Tel.: +43 (0)4268 / 26 44 - 44
+                          </address>                            
+                          Für den Inhalt verantwortlich: Firma Zotter Bad &amp; Energie GmbH<br />
+                          Geschäftsführer: Roman Zotter<br />
+                          E-Mail: <a href="mailto:zotter@zotterbad.at">zotter@zotterbad.at</a><br /><br />
+                          Konzept, Design &amp; Entwicklung: <a href="http://www.kopf-kunst.at" taget="_blank">Kahlbacher Events &amp; Fotografie</a>
+                          <br /><br />
+                          Programmierung: <a href="http://www.martinwerner.at" taget="_blank">Martin Werner – Medientechnik www.martinwerner.at</a>
+                          <br /><br />
+                          Bildernachweis: Bilder © Fotolia, Kevin Kahlbacher und diverse. <br /><br />
+                          <p>
+                          Verwendung der Bilder ohne Zustimmung ist verboten und strafbar! Wir übernehmen keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. Urheberrechtliche Hinweise: Der Inhalt dieser Website ist urheberrechtlich geschützt. Die Bereitstellung von Inhalten und Bildmaterial dieser Website auf anderen Websites ist nur mit ausdrücklicher Genehmigung von Herrn Roman Zotter, Geschäftsführer, 9360 Friesach oder Herrn Kevin Kahlbacher, 9300 St.Veit an der Glan, gestattet. Die auf der Website enthaltenen Angaben werden nach bestemWissen erstellt und mit großer Sorgfalt auf ihre Richtigkeit überprüft. Trotzdem sind inhaltliche und sachliche Fehler nicht vollständig auszuschließen. Herr Roman Zotter übernimmt deshalb keinerlei Garantie und Haftung für die Richtigkeit, Aktualität und Vollständigkeit der bereitgestellten Informationen. Alle Angaben sind ohne Gewähr. Dies gilt auch für alle Links zu anderen URL’s, die auf unserer Website genannt werden.<br />
+                          </p>
+                      </div>                   
+                      <form class="form-horizontal" role="form" action="index.php" method="post" >
                         <div class="col-lg-6">
-                          <div class="form-group">
-                            <label for="InputName">Name</label>
-                            <div class="input-group">
-                              <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" value="<?php echo htmlspecialchars($_POST['InputName']); ?>" required >                              
-                              <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
+                          <div class="form-group">                            
+                            <div class="col-sm-10">
+                              <label for="InputName">Name</label>
+                              <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Vorname Nachname" value="<?php echo htmlspecialchars($_POST['InputName']); ?>" required >
                               <?php echo "<p class='text-danger'>$errName</p>";?>
                             </div>
                           </div>
-                          <div class="form-group">
-                            <label for="InputEmail">Email</label>
-                            <div class="input-group">
-                              <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+                          <div class="form-group">                            
+                            <div class="col-sm-10">
+                              <label for="InputEmail">Email</label>
+                              <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email Adresse" required  >
                               <?php echo "<p class='text-danger'>$errEmail</p>";?>
-                              <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+                            </div>
                           </div>
                           <div class="form-group">
-                            <label for="InputMessage">Nachricht</label>
-                            <div class="input-group">
-                              <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
-                              <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+                            <div class="col-sm-10">                            
+                              <label for="InputMessage">Nachricht</label>
+                              <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Ihre Nachricht an uns." required></textarea>
+                            </div>
                           </div>
-                          <div class="form-group">
-                            <label for="InputReal">4+3? (Simple Spam Checker)</label>
-                            <div class="input-group">
+                          <div class="form-group">                            
+                            <div class="col-sm-10">
+                              <label for="InputReal">4+3? (Spam Check)</label>
                               <input type="text" class="form-control" name="InputReal" id="InputReal" required>
                               <?php echo "<p class='text-danger'>$errHuman</p>";?>
                               
                               </div>
                           </div>
-                          <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
-                          <div class="form-group">
+                          <input type="submit" name="submit" id="submit" value="Versenden" class="btn btn-info">
+                          <div class="col-sm-10">
                             <div class="col-sm-10 col-sm-offset-2">
                                 <?php echo $result; ?>
                             </div>
                           </div>
 
                         </div>
-                      </form>
-                      <hr class="featurette-divider hidden-lg">
-                      <div class="col-lg-5 col-md-push-1">
-                        <address>
-                        <h3>Adresse</h3>
-                        <p class="lead">
-                          Zotter - Bad &amp; Energie<br>
-                          9360 Friesach</a><br>
-                          Tel.: +43 (0)4268 / 26 44<br>
-                          Tel.: +43 (0)4268 / 26 44 - 44</p>
-                        </address>
-                      </div>                                        
+                      </form>                                                                                
+                    </div>
+                    <div class="row content">
+                      
                     </div>
                   </div>
                   <!-- END: CONTACT FORM 8-->
@@ -547,15 +462,15 @@
                             Unser Ziel ist es Ihnen eine neue Wohlfühl – Oase zu schaffen, in der Sie sich entspannen und ausruhen können. Dabei achten wir nicht nur auf Design und praxisorientierter Funktionalität, sondern bedenken auch zukünftige Bedürfnisse. Auch die Arbeitsschritte während des Umbaus oder der Errichtung Ihres Wohlfühl-Badezimmers, sollten für Sie zu keinem Stressfaktor werden. Wir wissen, dass zufriedene Kunden unser wertvollstes Kapital sind und wir sind überzeugt, dass wir das nur mit kompetenter Beratung und sauberer Ausführung erreichen. Als Premium-Baddesigner sind Melanie und Selina Zotter unter anderem auf individuelle Badplanung spezialisiert. Sie werden Augen machen - bei diesen detaillierten Planungen bleibt kein Wunsch offen. Unabhängig vom Budget kann so ein Bad gestaltet werden – indem Sie sich einfach wohl fühlen und vom stressigen Alltag abschalten können.
                           </p>
                           <h3>Machen Sie entspannt Urlaub – wir bauen währenddessen Ihr Traum Bad für Sie.</h3>
-                          <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                          <!--<img src="./img/zotterbad-01.jpg" alt="Zotter Bad &amp; Energie">-->
                       </div>
-                      <div class="col-md-4">
-                          
-                          <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                      <div class="col-md-4">                          
+                          <img src="./img/zotterbad-02.jpg" alt="Zotterbad">
+                          <img src="./img/zotterbad-03.jpg" alt="Zotterbad">
                       </div>
-                      <div class="col-md-4">
-                          
-                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      <div class="col-md-4">                          
+                          <img src="./img/zotterbad-04.jpg" alt="Zotterbad">
+                          <img src="./img/zotterbad-05.jpg" alt="Zotterbad">
                       </div>                 
                     </div>
                   </div><!-- END: ZOTTERBAD 9-->
@@ -572,16 +487,16 @@
                             <br /> 
                             Das private Badezimmer entwickelt sich stetig weiter zu einer Erholungswelt, die Platz bietet für die Gesundheitsvorsorge und ganz persönliche Baderituale. Als Teil einer intimen Wohnsphäre tanken die Menschen in ihrem Bad neue Lebensenergie und schaffen sich so einen Ort für mehr Lebensqualität. Mit anderen Worten: Urlaub im eigenen Bad. 
                           </p>
-                          <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                          <!--<img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">-->
                       </div>
-                      <div class="col-md-4">
-                          
-                          <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                      <div class="col-md-4">                          
+                          <img src="./img/badplanung-02.jpg" alt="Badplanung">
+                          <img src="./img/badplanung-03.jpg" alt="Badplanung">
                       </div>
-                      <div class="col-md-4">
-                          
-                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
-                      </div>                 
+                      <div class="col-md-4">                          
+                          <img src="./img/badplanung-04.jpg" alt="Badplanung">
+                          <img src="./img/badplanung-05.jpg" alt="Badplanung">
+                      </div>          
                     </div>
                   </div><!-- END: PLANING 10 -->
                   <!--  BARRIERFREE 11 -->
@@ -598,14 +513,17 @@
                             Zotterbad baut Badezimmer, die speziell auf solche Bedürfnisse zugeschnitten sind und durch viele Details das Leben erleichtern. Bei uns gibt es eine große Auswahlmöglichkeit Ihr Badezimmer in einem schönen Design barrierefrei zu gestalten.<br />
                             <br />
                             Beim Seniorenbad geht es vor allem darum, dem Benutzer optimale Sicherheit und kleine Hilfen zu bieten, wie zum Beispiel ausreichend groß dimensionierte Haltegriffe und rutschfeste bodenebene Duschplatten sowie ausreichende Sitzmöglichkeiten. 
-                          </p>  
+                          </p>
+                          <!--<img src="./img/barrierefrei-01.jpg" alt="Barrierefrei">-->
                       </div>
-                      <div class="col-md-4">
-                                                  
+                      <div class="col-md-4">                          
+                          <img src="./img/barrierefrei-02.jpg" alt="Barrierefrei">
+                          <img src="./img/barrierefrei-03.jpg" alt="Barrierefrei">
                       </div>
-                      <div class="col-md-4">
-
-                      </div>                 
+                      <div class="col-md-4">                          
+                          <img src="./img/barrierefrei-04.jpg" alt="Barrierefrei">
+                          <img src="./img/barrierefrei-05.jpg" alt="Barrierefrei">
+                      </div>                    
                     </div>
                   </div><!-- END: BARRIERFREE 11 --> 
                   <!--  SMALLBATH 12 -->
@@ -613,23 +531,23 @@
                    <div class="row content">
                      <div class="col-md-4">
                           <h4>Das Kleine Bad</h4>
-                          <p>
+                          <p class="bottom-padding-large">
                             Ihr Bad ist Klein, schmal, und vielleicht auch ohne Fenster – doch das ist noch lange kein Grund, das Bad stiefmütterlich zu behandeln. Auch kleine Badezimmer haben die Chance, groß rauszukommen, wenn man sie liebevoll und mit genügend Stauraum einrichtet. Kleine Badezimmer brauchen vor allem viel Stauraum, der gleichzeitig als Nutzfläche dient.  Kleine Badezimmer, die auch noch die Waschmaschine beherbergen müssen, können gar nicht schön aussehen? Aber klar doch. Man braucht nur eine kompetente fachgerechte Beratung vor Ort. 
                           </p>                          
-                          <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                          <img src="./img/daskleinebad-01.jpg" alt="Zotter Bad &amp; Energie">
                       </div>
                       <div class="col-md-4">
                           <h4>Duschen &amp; Baden</h4>
-                          <p>
+                          <p class="bottom-padding-small">
                             Wer für gewöhnlich eine erfrischende Dusche bevorzugt, in der kalten Jahreszeit aber gemütliche Wannenbäder liebt, stand bislang vor dem Problem „entweder – oder“. Mittlerweile gibt es eine Lösung, die beides zulässt, Duschen und Baden. Die Großraum-Dusche kann in eine absolut dichte Wohlfühlwanne verwandelt werden. Ein All – inklusive Lösung für Ihr Bad. Ein überzeugendes Argument wenn Sie ein eher kleines Bad haben und trotzdem von einem feinen Wellnessbereich in Ihrem Bad träumen. Bei einer niedrigen Einstiegshöhe genießen Sie eine erfrischende Dusche oder ein herrlich entspannendes Vollbad.<br />
                             <br /> 
                             Die Devise: auf kleinstem Raum größtmöglichen Genuss und Spaß haben und Tiefenentspannung zu erreichen.
                           </p>                          
-                          <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                          <img src="./img/daskleinebad-02.jpg" alt="Sauberkeit und Umweltbewusstsein">
                       </div>
-                      <div class="col-md-4">
-                          
-                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      <div class="col-md-4">                        
+                          <img src="./img/daskleinebad-03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                          <img src="./img/daskleinebad-04.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
                       </div>                 
                     </div>
                   </div><!-- END: SMALLBATH 12 -->       
@@ -645,14 +563,16 @@
                             <br />
                             Gönnen Sie sich eine ganz bewusste Auszeit! Türe schließen und abtauchen - in Ihrem eigenen privaten Spa!
                           </p>                          
-                          <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
-                      </div>
-                      <div class="col-md-4">                                                   
-                          <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                          <!--<img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">-->
                       </div>
                       <div class="col-md-4">                          
-                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
-                      </div>                 
+                          <img src="./img/wellness-02.jpg" alt="Wellness">
+                          <img src="./img/wellness-03.jpg" alt="Wellness">
+                      </div>
+                      <div class="col-md-4">                          
+                          <img src="./img/wellness-04.jpg" alt="Wellness">
+                          <img src="./img/wellness-05.jpg" alt="Wellness">
+                      </div>                   
                     </div>
                   </div><!-- END: WELLNESS 13 -->
                   <!--  SWAP 14 -->
@@ -669,44 +589,195 @@
                             Boden, Decke und Fließen bleiben bestehen. Wir können die neue Dusche selbstverständlich so produzieren, dass diese die Öffnung Ihrer alten Dusche überdeckt oder er wird durch einen Klickboden ersetzt. <br />
                             Die Wände werden mit speziellen fugenlosen Patten verkleidet und die Wand Ihrer barrierefreien Dusche erscheint in neuem Glanz zudem ist sie noch superleicht zu pflegen und die perfekte Lösung zu ihrem System. Es ist daher nicht zwingend erforderlich, das ganze Badezimmer zu renovieren.
                           </p>                          
-                          <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
-                      </div>
-                      <div class="col-md-4">                                                   
-                          <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                          <!--<img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">-->
                       </div>
                       <div class="col-md-4">                          
-                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
-                      </div>                 
+                          <img src="./img/dusche-02.jpg" alt="Wanne raus - Dusche rein">
+                          <img src="./img/dusche-03.jpg" alt="Wanne raus - Dusche rein">
+                      </div>
+                      <div class="col-md-4">                          
+                          <img src="./img/dusche-04.jpg" alt="Wanne raus - Dusche rein">
+                          <img src="./img/dusche-05.jpg" alt="Wanne raus - Dusche rein">
+                      </div>                  
                     </div>
                   </div><!-- END: SWAP 14 -->
                   <!--  DUSTLESS 15 -->
                   <div class="item">                    
                    <div class="row content">
                      <div class="col-md-4">
+                        <div class="content_element">
                           <h4>Staubfrei Arbeiten</h4>
                           <h3>Vertrauen Sie auf unser Knowhow, wenn es um eine „saubere“ Badmodernisierung geht.</h3>
                           <p>                            
                             Zufriedene Kunden sind die beste Werbung für einen Handwerker. Um dies zu erreichen, arbeiten wir mit den innovativen „Staubfrei Arbeiten System“. Unsere Kunden legen die anfängliche Skepsis wegen eventueller Staubbelästigung schnell ab, wenn diese feststellen, dass beinahe staubfrei gearbeitet wird.
-                          </p>
-                                                  
-                          <img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">
+                          </p>   
+                        </div>                                               
+                          <img src="./img/staubfrei-01.jpg" alt="Zotter Bad &amp; Energie">
                       </div>
                       <div class="col-md-4">
-                          <h4>Das „Staubfrei Arbeiten Konzept“: </h4>
-                          <ul>
-                            <li>Monteure tragen Überziehschuhe, bis das Schutzvlies ausgelegt ist.</li>
-                            <li>Mit dem Schutzvlies werden die Böden und Treppen während der Bauarbeiten abgedeckt.</li>
-                            <li>Der Türrahmenschutz sichert die wertvollen Türstöcke vor Beschädigung.</li>
-                            <li>Mit der Staubschutztür wird sichergestellt, dass der Staub nicht in den Wohnbereich dringt.</li>
-                            <li>Herzstück des "Staubfrei Arbeiten Konzepts“ sind die Luftreinigungsgeräte wie Staubschlucker, Staubabsaugung, Staubfresser und Airclean.</li>
-                          </ul>                                           
-                          <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
+                        <div class="content_element">
+                          <h4>Das „Staubfrei Arbeiten Konzept“: </h4>                          
+                            <ul>
+                              <li>Monteure tragen Überziehschuhe, bis das Schutzvlies ausgelegt ist.</li>
+                              <li>Mit dem Schutzvlies werden die Böden und Treppen während der Bauarbeiten abgedeckt.</li>
+                              <li>Der Türrahmenschutz sichert die wertvollen Türstöcke vor Beschädigung.</li>
+                              <li>Mit der Staubschutztür wird sichergestellt, dass der Staub nicht in den Wohnbereich dringt.</li>
+                              <li>Herzstück des "Staubfrei Arbeiten Konzepts“ sind die Luftreinigungsgeräte wie Staubschlucker, Staubabsaugung, Staubfresser und Airclean.</li>
+                            </ul>
+                          </div>                                
+                          <img src="./img/staubfrei-02.jpg" alt="Sauberkeit und Umweltbewusstsein">
                       </div>
-                      <div class="col-md-4">                          
-                          <img src="./img/content03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                      <div class="col-md-4">                        
+                          <img src="./img/staubfrei-03.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
+                          <img src="./img/staubfrei-04.jpg" alt="Kontinuierliche Verbesserung aller Prozesse">
                       </div>                 
                     </div>
-                  </div><!-- END: DUSTLESS 15 --> 
+                  </div><!-- END: DUSTLESS 15 -->
+                  <!-- NEWS - GALLERY 16 -->
+                  <div class="item">
+                    <div class="row content">
+                    <div class="col-md-4">                                      
+                        <div class="newsitem">
+                          <h4>Aktuelle Fotogalerien</h4>
+                          <ul>
+                            <li><a href="#">Eisstockschießen 2015</a></li>
+                            <li><a href="#">Kart Rennen 2014</a></li>
+                            <li><a href="#">20 Jahre Jubiläum Roland</a></li>
+                            <li><a href="#">10 Jahre Jubiläum Michael</a></li>
+                          </ul>
+                          <br /><br />
+                        </div>
+                    </div>                    
+                    <!-- IMAGE SLIDER -->
+                    <div class="col-md-8">
+                        <div id="carousel-gallery" class="carousel slide carousel-big" data-ride="carousel" data-interval="5000">
+                        <!-- INDICATORS -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#carousel-gallery" data-slide-to="0" class="active"></li>
+                          <li data-target="#carousel-gallery" data-slide-to="1"></li>
+                          <li data-target="#carousel-gallery" data-slide-to="2"></li>
+                          <li data-target="#carousel-gallery" data-slide-to="4"></li>
+                        </ol>
+                        <!-- ENDOF: INDICATORS -->
+                       
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <img src="./img/main01.jpg" alt="...">
+                            <div class="carousel-caption">
+                                <h3>&nbsp;</h3>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <img src="./img/main02.jpg" alt="...">
+                            <div class="carousel-caption">
+                                <h3>&nbsp;</h3>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <img src="./img/main03.jpg" alt="...">
+                            <div class="carousel-caption">
+                                <h3>&nbsp;</h3>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <img src="./img/main04.jpg" alt="...">
+                            <div class="carousel-caption">
+                                <h3>&nbsp;</h3>
+                            </div>
+                          </div>
+                        </div>
+                       
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-gallery" role="button" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-gallery" role="button" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                      </div>               
+                   </div><!-- ENDOF: IMAGE-Carousel -->
+                    </div>
+                    <div class="row content">
+                    </div>
+                  </div>
+                  <!-- ENDOF: GALLERY 16 -->
+                  <!-- NEWS - RenoDeco 17 -->
+                  <div class="item">
+                    <div class="row content">
+                      <div class="col-md-4">                                      
+                          <div class="newsitem">
+                          <h4>RenoDeco</h4>
+                          <p>
+                            Kreative Wandgestaltung liegt im Trend. Setzen Sie Akzente oder zaubern Sie eine ganz neue Stimmung in Ihr Bad mit RenoDeco!
+                            <br />
+                            <h4>Was ist RenoDeco</h4>
+                            <ul>
+                              <li>Ideales Wandverkleidungsmaterial für die Teilrenovierung im Badezimmer</li>
+                              <li>3 mm starke Aluminium-Verbundplatte mit einseitigem, digitalem Direktdruck</li>
+                              <li>Hochwertige Oberflächenveredelung mit kratzfestem und UV-beständigem Strukturlack</li>
+                              <li>Hygienisch-fugenlose Wandgestaltung mit pflegeleichter Oberfläche</li>
+                              <li>Vielfältige Dekorpalette für die individuelle Badgestaltung</li>
+                              <li>Schnelle Verkleidung großer Wandbereiche durch großformatige Platten (1000 o. 1500 mm Breite x 2550 mm Höhe)</li>
+                              <li>Be- und Verarbeitung direkt vor Ort mit handelsüblichen Werkzeugen – ohne schmutzige Fliesenarbeiten</li>
+                            </ul>
+                          </p>
+                        </div>
+                      </div>
+                    <div class="col-md-4"> 
+                      <img src="img/news_renodeco_01.jpg" alt="RenoDeco"><br />
+                      <img src="img/news_renodeco_02.jpg" alt="RenoDeco"><br />                      
+                    </div> 
+                    <div class="col-md-4">
+                      <img src="img/news_renodeco_03.jpg" alt="RenoDeco"><br />
+                      <img src="img/news_renodeco_04.jpg" alt="RenoDeco"><br />
+                    </div>
+                  </div>                    
+                </div>
+                <!-- ENDOF: NEWS RenoDeco 17-->
+                <!-- NEWS - KlimaDesign 18 -->
+                  <div class="item">
+                    <div class="row content">
+                    <div class="col-md-4">                                      
+                          <div class="newsitem">
+                          <h4>...WO IMMER SIE ANGENEHME STRAHLUNGSWÄRME BENÖTIGEN!</h4>
+                          <p>
+                            Ein wesentlicher Faktor beim Leben im Freien ist selbstverständlich das Wetter bzw. die Temperatur. Genau bei diesem springenden Punkt setzen Klima-Designwände von Harreither an: "Die Aufenthaltszeit des Menschen im Freien zu verlängern!" Vergessen sind Abende, die aufgrund sinkender Temperaturen viel zu früh endeten. Die mobilen Wohlfühlflächen bringen milde Strahlungswärme dorthin, wo sie gebraucht wird.
+                            <br />
+                            <bold>Flexibel, ästhetisch, gesund und wirtschaftlich.</bold>
+                            <br />
+                            <h3>MOBILE STRAHLUNGSWÄRME UND OPTISCHE REIZE FÜR BESONDERE STUNDEN IM FREIEN:</h3>
+                            <ul>
+                              <li>Rasch spürbare Behaglichkeit</li>
+                              <li>Erhöhte Lebensqualität</li>
+                              <li>Dreifaches Sommerfeeling</li>
+                              <li>Modernes Design</li>
+                              <li>Einfachst zu bedienen</li>
+                              <li>Österreichisches Qualtitätsprodukt</li>
+                              <li>CE-zertifiziert</li>
+                            </ul>
+
+                            <h3>DIE EINSATZBEREICHE DER KLIMA-DESIGNWÄNDE SIND VIELSEITIGST:</h3>
+                            <ul>
+                              <li>Privatbereich: Auf Gartenterrassen platziert, können Sie auch an kühleren Tagen oder Abenden die Zeit mit Familie und Freunden verbringen.</li>
+                              <li>Gastronomie: Verwenden Sie die Klima-Designwand als behagliche Trennung in ihrem Gastgarten und forcieren Sie gleichzeitig ihre Marke mit einem individuellen Branding. Visualisieren Sie einfach nur Gemütlichkeit. Oder bieten Sie ihren rauchenden Gästen eine beheizte Lounge im Freien.</li>
+                              <li>Eventbereich: Nützen Sie den Komfort, sowie die energiesparende Betriebsweise und gestalten Sie perfekte Wohlfühlbereiche im Freien oder in Zelten. Ihre Veranstaltungen werden als optisches und behagliches Erlebnis positioniert!</li>
+                              <li>Die Anwendungen von Klima-Designwänden sind beinahe grenzenlos und bieten gestalterische Freiheiten für Erlebnisabende.</li>
+                            </ul>
+                          </p>
+                          <br />
+                        </div>
+                    </div>
+                    <div class="col-md-4"> 
+                      <img src="img/news_klimadesign_01.jpg" alt="Klima Design W&auml;nde"><br />
+                      <img src="img/news_klimadesign_02.jpg" alt="Klima Design W&auml;nde"><br />                      
+                    </div> 
+                    <div class="col-md-4">
+                      <img src="img/news_klimadesign_03.jpg" alt="Klima Design W&auml;nde"><br />
+                      <img src="img/news_klimadesign_04.jpg" alt="Klima Design W&auml;nde"><br />
+                    </div>
+                </div>
+                <!-- ENDOF: NEWS KlimaDesign 18-->
                 </div>
               </div> <!-- Carousel -->
            </div>
@@ -937,7 +1008,7 @@
         </div>
       </div> 
 
-      <div class="modal fade" id="employee" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal fade" id="employee-10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
@@ -954,7 +1025,7 @@
                   <p>E-Mail: <a href="mailto:zotter@zotterbad.at">zotter@zotterbad.at</a></p>
                 </div>
                 <div class="col-md-6">
-                  <img src="./img/placeholder_230x135.jpg" alt="Placeholder">
+                  <img src="./img/employee-10-large.jpg" alt="">
                 </div>
               </div>
             </div>
@@ -966,14 +1037,15 @@
       
     </div> <!-- /container --> 
     <footer>
-        <p>&copy; <a href="http://www.zotterbad.at">Zotter - Bad &amp; Energie 2015</a> - 9360 Friesach - Tel.: +43 (0)4268/26 44 - 0 - Fax: +43 (0)4268/26 44 - 44 - Email: office@zotterbad.at
-        <a href="#impressum">Impressum</a> - Grafik &amp; Design: <a href="http://www.kopf-kunst.at" target="_blank">KopfKunst</a></p>
+        <p>&copy; <a href="http://www.zotterbad.at">Zotter - Bad &amp; Energie 2015</a> - 9360 Friesach - Tel.: +43 (0)4268/26 44 - 0 - Fax: +43 (0)4268/26 44 - 44 - Email: <a href="mailto:office@zotterbad.at">office@zotterbad.at</a> -
+        <a href="#carousel-content" data-slide-to="8">Impressum</a> - Grafik &amp; Design: <a href="http://www.kopf-kunst.at" target="_blank">KopfKunst</a></p>
     </footer>       
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="jquery-1.11.2.min.js"><\/script>')</script>
     <script src="bootstrap.min.js"></script>
     <script src="bootstrap-lightbox.min.js"></script>
-    <script src="all.min.js"></script>    
+    <script src="all.min.js"></script>
+    <script src="//localhost:35729/livereload.js"></script>   
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!--<script>

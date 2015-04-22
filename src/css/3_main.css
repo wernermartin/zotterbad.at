@@ -91,6 +91,12 @@ li.dropdown > a.btn-nav:focus {
   text-align: justify;
 }
 
+.col-lg-6 > p {
+  padding-bottom: 20px;
+  min-height: 250px;
+  text-align: justify;
+}
+
 .reset > p {
   padding: 0px;
   min-height: 100px;
@@ -169,8 +175,12 @@ footer > p > a {
 /* ENDOF: SUBNAVIGATION */
 
 /* FONT SETTINGS */
+
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+
 h1 {
-  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-family: 'Varela Round', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
@@ -178,7 +188,7 @@ h1 {
   line-height: 26px;
 }
 h3 {
-  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-family: 'Varela Round', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -186,7 +196,7 @@ h3 {
   line-height: 15px;
 }
 h4 {
-  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-family: 'Varela Round', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-variant: normal;
@@ -194,7 +204,7 @@ h4 {
   line-height: 15px;
 }
 h5 {
-  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-family: 'Varela Round', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-variant: normal;
@@ -202,7 +212,7 @@ h5 {
   line-height: 15px;
 }
 p {
-  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-family: 'Varela Round', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-variant: normal;
@@ -210,7 +220,7 @@ p {
   line-height: 20px;
 }
 blockquote {
-  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-family: 'Varela Round', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 21px;
   font-style: normal;
   font-variant: normal;
@@ -218,7 +228,7 @@ blockquote {
   line-height: 30px;
 }
 pre {
-  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-family: 'Varela Round', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-variant: normal;
@@ -226,7 +236,7 @@ pre {
   line-height: 18px;
 }
 li {
-  font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-family: 'Varela Round', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-variant: normal;
@@ -243,6 +253,18 @@ p.black {
 p.red {
   color: #df2c23;
   display: inline;
+}
+
+p.bottom-padding-small {
+  padding-bottom: 55px;
+}
+
+p.bottom-padding-large {
+  padding-bottom: 115px;
+}
+
+div.content_element {
+  min-height: 340px;
 }
 
 
