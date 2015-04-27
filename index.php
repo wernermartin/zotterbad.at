@@ -48,19 +48,37 @@
             <div class="col-md-3 times">            
               <div id="carousel-sub-nav" class="carousel slide" data-ride="carousel" data-interval="false">
                 <div class="carousel-inner carousel-sub-nav" id="sub_navigation">
-                  <div class="item sub-nav active" id="subnav_home">                                
+                  <div class="item active" id="subnav_home">
+                    <div class="sub-nav">
+                      &nbsp;
+                    </div>
+                    <div>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> &Ouml;ffnungszeiten:<br />
+                      <p>MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />
+                      FR: 07:30 - 12:00</p>
+                    </div>
                   </div>
                   <!-- SUB-NAV - ABOUT US -->
-                  <div class="item sub-nav" id="subnav_aboutzotter">
+                  <div class="item" id="subnav_aboutzotter">
+                    <div class="sub-nav">
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="7">&Uuml;ber uns</a>
                       <br />
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="6">Mitarbeiter</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="8">Kontakt</a>                    
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="8">Kontakt</a>
+                    </div>
+                    <div>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> &Ouml;ffnungszeiten:<br />
+                      <p>MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />
+                      FR: 07:30 - 12:00</p>
+                    </div>                 
                   </div>
                   <!-- ENDOF: SUB-NAV - ABOUT US -->
                   <!-- SUB-NAV - BATHROOM -->
-                  <div class="item sub-nav" id="subnav_bath">
+                  <div class="item" id="subnav_bath">
+                    <div class="sub-nav">
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="9">Das Zotterbad</a>
                       <br />
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="10">Badplanung</a>
@@ -74,17 +92,58 @@
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="14">Wanne raus - Dusche rein</a>
                       <br />
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="15">Staubfrei Arbeiten</a>
+                    </div>
+                    <div>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> &Ouml;ffnungszeiten:<br />
+                      <p>MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />
+                      FR: 07:30 - 12:00</p>
+                    </div>
                   </div>
                   <!-- ENDOF: SUB-NAV - BATHROOM -->
                   <!-- SUB-NAV - NEWS -->
-                   <div class="item sub-nav" id="subnav_news">
+                  <div class="item" id="subnav_news">
+                    <div class="sub-nav">
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="17">RenoDeco</a>
                       <br />
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="18">Klima Design Wände</a>
                       <br /><br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="16">Bildergalerie</a>                  
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="16">Bildergalerie</a>
+                    </div>
+                    <div>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> &Ouml;ffnungszeiten:<br />
+                      <p>MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />
+                      FR: 07:30 - 12:00</p>
+                    </div>                
                   </div>
                   <!-- ENDOF: SUB-NAV - NEWS -->
+                  <!-- SUB-NAV - ENERGY -->
+                  <div class="item" id="subnav_energy">
+                    <div class="sub-nav">
+                      &nbsp;
+                    </div>
+                    <div>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> &Ouml;ffnungszeiten:<br />
+                      <p>MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />
+                      FR: 07:30 - 12:00</p>
+                    </div>                
+                  </div>
+                  <!-- ENDOF: SUB-NAV - ENERGY -->
+                  <!-- SUB-NAV - ZOTTERPOINTS -->
+                  <div class="item" id="subnav_zotterpoints">
+                    <div class="sub-nav">
+                      &nbsp;
+                    </div>
+                    <div>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> &Ouml;ffnungszeiten:<br />
+                      <p>MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />
+                      FR: 07:30 - 12:00</p>
+                    </div>                
+                  </div>
+                  <!-- ENDOF: SUB-NAV - ZOTTERPOINTS -->
                 </div>
               </div>
             </div>
@@ -174,7 +233,7 @@
                         <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
                       </div>
                       <div class="col-md-4">
-                        <h4>Kontinuierliche Verbesserung aller Prozesse<p class="black">&nbsp;</p></h4>
+                        <h4>Kontinuierliche Verbesserung aller Prozesse<p class="black">Wissen, das sich täglich vermehrt, nimmt ab</p></h4>
                           <p>
                           Wer nicht täglich versucht besser zu werden, hat aufgehört gut zu sein. Aus diesem Grunde werden in unserer Firma ständig alle Tätigkeiten mit dem Anspruch ausgeführt, diese für unseren Kunden zu verbessern. Für Hinweise unserer Kunden, Lieferanten und Partner zur Optimierung unserer Organisation sind wir dankbar.
                         </p>
@@ -391,14 +450,15 @@
                         <br />
                         <h4>IMPRESSUM</h4>
                           <address>
-                            Zotter - Bad &amp; Energie<br>
-                            9360 Friesach</a><br>
-                            Tel.: +43 (0)4268 / 26 44<br>
+                            Bad &amp; Energie Zotter GmbH<br />
+                            Solarstraße 1<br />
+                            9360 Friesach<br />
+                            Tel.: +43 (0)4268 / 26 44<br />
                             Tel.: +43 (0)4268 / 26 44 - 44
                           </address>                            
                           Für den Inhalt verantwortlich: Firma Zotter Bad &amp; Energie GmbH<br />
                           Geschäftsführer: Roman Zotter<br />
-                          E-Mail: <a href="mailto:zotter@zotterbad.at">zotter@zotterbad.at</a><br /><br />
+                          E-Mail: <a href="mailto:office@zotterbad.at">office@zotterbad.at</a><br /><br />
                           Konzept, Design &amp; Entwicklung: <a href="http://www.kopf-kunst.at" taget="_blank">Kahlbacher Events &amp; Fotografie</a>
                           <br /><br />
                           Programmierung: <a href="http://www.martinwerner.at" taget="_blank">Martin Werner – Medientechnik www.martinwerner.at</a>
@@ -503,8 +563,7 @@
                   <div class="item">                    
                    <div class="row content">
                      <div class="col-md-4">
-                          <h4>Barrierefrei Leben ohne Einschränkung.</h4>
-                          <h3>Vertrauen Sie uns, wenn es um eine „saubere“ Badmodernisierung geht.</h3>
+                          <h4>Barrierefrei <p class="black">Leben ohne Einschränkung!</p></h4>                          
                             <p>
                             Barrierefreies Wohnen gewinnt im Hinblick auf die Alterspyramide immer mehr an Bedeutung und stellt speziell bei der Badausstattung besondere Anforderungen.<br />
                             <br />
@@ -583,11 +642,11 @@
                           <p>
                             Sie benötigen mehr Platz im Bad und Sie möchten einen leichteren Einstieg in ihre Dusche? Wir bieten Ihnen eine Teilmodernisierung – und das ganz nach Ihren Wünschen und Bedürfnissen.<br />
                             Gerade für Senioren ist es wichtig, die Dusche bequem erreichen zu können. Deshalb sollte die Dusche möglichst ebenmäßig und ohne Rutschgefahr zu betreten sein. Abhilfe schafft hier der Austausch der vorhandenen Wanne gegen eine bequem erreichbare und barrierefreie Dusche mit niedrigem Zugang: 
-                            Ohne viel Schmutz ersetzen wir Ihre alte Wanne oder Dusche durch eine neue Dusche -Barrierefrei, rutschhemmend, schnell und in zeitlosem Design.<br />
+                            Ohne viel Schmutz ersetzen wir Ihre alte Wanne oder Dusche durch eine neue Dusche -Barrierefrei, rutschhemmend, schnell.<br />
                             <br />
-                            Die alte Dusche oder Badewanne wird entfernt, Rohre werden bei Bedarf neu verlegt.<br />
-                            Boden, Decke und Fließen bleiben bestehen. Wir können die neue Dusche selbstverständlich so produzieren, dass diese die Öffnung Ihrer alten Dusche überdeckt oder er wird durch einen Klickboden ersetzt. <br />
-                            Die Wände werden mit speziellen fugenlosen Patten verkleidet und die Wand Ihrer barrierefreien Dusche erscheint in neuem Glanz zudem ist sie noch superleicht zu pflegen und die perfekte Lösung zu ihrem System. Es ist daher nicht zwingend erforderlich, das ganze Badezimmer zu renovieren.
+                            Die alte Dusche oder Badewanne wird entfernt, Versorgungsleitungen werden bei Bedarf neu installiert.<br />
+                            Boden, Decke und Fliesen bleiben bestehen. Wir können die neue Dusche selbstverständlich so produzieren, dass diese die Öffnung Ihrer alten Dusche überdeckt oder er wird durch einen Klickboden ersetzt. <br />
+                            Die Wände werden mit speziellen fugenlosen Platten verkleidet und die Wand Ihrer barrierefreien Dusche erscheint im neuen Glanz zudem ist sie noch superleicht zu pflegen und die perfekte Lösung zu ihrem System. Es ist daher nicht zwingend erforderlich, das ganze Badezimmer zu renovieren.
                           </p>                          
                           <!--<img src="./img/content01.jpg" alt="Zotter Bad &amp; Energie">-->
                       </div>
@@ -794,10 +853,10 @@
               <div class="row">
                 <div class="col-md-6">                  
                   <h4>Roman Zotter</h4>
-                  <h3>Geschäftsführer</h3>
-                  <p>Heizung-, Gas- und Wasserinstallationsmeister</p>
+                  <h3>Geschäftsführer<br />
+                  Heizung-, Gas- und Wasserinstallationsmeister</h3>
                   <p>Tel.: 04268 / 2644</p>
-                  <p>E-Mail: <a href="mailto:zotter@zotterbad.at">zotter@zotterbad.at</a></p>
+                  <p>E-Mail: <a href="mailto:r.zotter@zotterbad.at">r.zotter@zotterbad.at</a></p>
                 </div>
                 <div class="col-md-6">
                   <img src="./img/employee-01-large.jpg" alt="Roman Zotter">
@@ -813,19 +872,19 @@
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myModalLabel">Roman Schlintl</h4>
+              <h4 class="modal-title" id="myModalLabel">Roland Schlintl</h4>
             </div>
             <div class="modal-body">
               <div class="row">
                 <div class="col-md-6">                  
-                  <h4>Roman Schlintl</h4>
-                  <h3>Monteur</h3>
-                  <p>&nbsp;</p>
+                  <h4>Roland Schlintl</h4>
+                  <h3>Monteur<br />
+                  &nbsp;</h3>
                   <p>Tel.: 04268 / 2644</p>
-                  <p>E-Mail: <a href="mailto:zotter@zotterbad.at">zotter@zotterbad.at</a></p>
+                  <p>E-Mail: <a href="mailto:office@zotterbad.at">office@zotterbad.at</a></p>
                 </div>
                 <div class="col-md-6">
-                  <img src="./img/employee-02-large.jpg" alt="Roman Schlintl">
+                  <img src="./img/employee-02-large.jpg" alt="Roland Schlintl">
                 </div>
               </div>
             </div>
@@ -844,10 +903,10 @@
               <div class="row">
                 <div class="col-md-6">                  
                   <h4>Stefan Pirzl</h4>
-                  <h3>Monteur</h3>
-                  <p>&nbsp;</p>
+                  <h3>Monteur<br />
+                  &nbsp;</h3>
                   <p>Tel.: 04268 / 2644</p>
-                  <p>E-Mail: <a href="mailto:zotter@zotterbad.at">zotter@zotterbad.at</a></p>
+                  <p>E-Mail: <a href="mailto:office@zotterbad.at">office@zotterbad.at</a></p>
                 </div>
                 <div class="col-md-6">
                   <img src="./img/employee-03-large.jpg" alt="Stefan Pirzl">
@@ -863,14 +922,14 @@
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myModalLabel">Melanie Zotter</h4>
+              <h4 class="modal-title" id="myModalLabel">Hildegard Zotter</h4>
             </div>
             <div class="modal-body">
               <div class="row">
                 <div class="col-md-6">                  
                   <h4>Hildegard Zotter</h4>
-                  <h3>Office, Buchhaltung, Rechnungslegung</h3>
-                  <p>&nbsp;</p>
+                  <h3>Office, Buchhaltung, Rechnungslegung<br />
+                  &nbsp;</h3>
                   <p>Tel.: 04268 / 2644-1</p>
                   <p>E-Mail: <a href="mailto:h.zotter@zotterbad.at">h.zotter@zotterbad.at</a></p>
                 </div>
@@ -894,8 +953,8 @@
               <div class="row">
                 <div class="col-md-6">                  
                   <h4>Selina Zotter</h4>
-                  <h3>Marketing &amp; Office, Bäderplanung</h3>
-                  <p>Sanitär-Fachberaterin, Reparaturen-Annahme, Logistik</p>
+                  <h3>Marketing &amp; Office, Bäderplanung<br />
+                  Sanitär-Fachberaterin, Reparaturen-Annahme, Logistik</h3>
                   <p>Tel.: 04268 / 2644-2</p>
                   <p>E-Mail: <a href="mailto:s.zotter@zotterbad.at">s.zotter@zotterbad.at</a></p>
                 </div>
@@ -919,10 +978,10 @@
               <div class="row">
                 <div class="col-md-6">                  
                   <h4>Michael Baumschlager</h4>
-                  <h3>Monteur</h3>
-                  <p>&nbsp;</p>
+                  <h3>Monteur<br />
+                  &nbsp;</h3>
                   <p>Tel.: 04268 / 2644</p>
-                  <p>E-Mail: <a href="mailto:zotter@zotterbad.at">zotter@zotterbad.at</a></p>
+                  <p>E-Mail: <a href="mailto:office@zotterbad.at">office@zotterbad.at</a></p>
                 </div>
                 <div class="col-md-6">
                   <img src="./img/employee-06-large.jpg" alt="Placeholder">
@@ -944,8 +1003,8 @@
               <div class="row">
                 <div class="col-md-6">                  
                   <h4>Melanie Zotter</h4>
-                  <h3>Technikerin, Logistik &amp; Office</h3>
-                  <p>Bäderplanung, Sanitär &amp; Heizungsfachberaterin</p>
+                  <h3>Technikerin, Logistik &amp; Office<br />
+                  Bäderplanung, Sanitär &amp; Heizungsfachberaterin</h3>
                   <p>Tel.: 04268 / 2644-5</p>
                   <p>E-Mail: <a href="mailto:m.zotter@zotterbad.at">m.zotter@zotterbad.at</a></p>
                 </div>
@@ -969,8 +1028,8 @@
               <div class="row">
                 <div class="col-md-6">                  
                   <h4>Meinhard Pichler</h4>
-                  <h3>Monteur</h3>
-                  <p>&nbsp;</p>
+                  <h3>Monteur<br />
+                  &nbsp;</h3>
                   <p>Tel.: 04268 / 2644</p>
                   <p>E-Mail: <a href="mailto:zotter@zotterbad.at">zotter@zotterbad.at</a></p>
                 </div>
@@ -994,10 +1053,10 @@
               <div class="row">
                 <div class="col-md-6">                  
                   <h4>Christoph Sabitzer</h4>
-                  <h3>Monteur</h3>
-                  <p>&nbsp;</p>
+                  <h3>Monteur<br />
+                  &nbsp;</h3>
                   <p>Tel.: 04268 / 2644</p>
-                  <p>E-Mail: <a href="mailto:zotter@zotterbad.at">zotter@zotterbad.at</a></p>
+                  <p>E-Mail: <a href="mailto:office@zotterbad.at">office@zotterbad.at</a></p>
                 </div>
                 <div class="col-md-6">
                   <img src="./img/employee-09-large.jpg" alt="Christoph Sabitzer">
@@ -1013,16 +1072,16 @@
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myModalLabel">Max Mustermann</h4>
+              <h4 class="modal-title" id="myModalLabel">Michael K&ouml;rbler</h4>
             </div>
             <div class="modal-body">
               <div class="row">
                 <div class="col-md-6">                  
-                  <h4>Max Mustermann</h4>
-                  <h3>Mitarbeiter</h3>
-                  <p>Heizung-, Gas- und Wasserinstallationsmeister</p>
+                  <h4>Michael K&ouml;rbler</h4>
+                  <h3>Monteur<br />
+                  &nbsp;</h3>
                   <p>Tel.: 04268 / 2644</p>
-                  <p>E-Mail: <a href="mailto:zotter@zotterbad.at">zotter@zotterbad.at</a></p>
+                  <p>E-Mail: <a href="mailto:office@zotterbad.at">office@zotterbad.at</a></p>
                 </div>
                 <div class="col-md-6">
                   <img src="./img/employee-10-large.jpg" alt="">
@@ -1037,7 +1096,7 @@
       
     </div> <!-- /container --> 
     <footer>
-        <p>&copy; <a href="http://www.zotterbad.at">Zotter - Bad &amp; Energie 2015</a> - 9360 Friesach - Tel.: +43 (0)4268/26 44 - 0 - Fax: +43 (0)4268/26 44 - 44 - Email: <a href="mailto:office@zotterbad.at">office@zotterbad.at</a> -
+        <p>&copy; <a href="http://www.zotterbad.at">Bad &amp; Energie Zotter GmbH 2015</a> - 9360 Friesach - Tel.: +43 (0)4268/26 44 - 0 - Fax: +43 (0)4268/26 44 - 44 - Email: <a href="mailto:office@zotterbad.at">office@zotterbad.at</a> -
         <a href="#carousel-content" data-slide-to="8">Impressum</a> - Grafik &amp; Design: <a href="http://www.kopf-kunst.at" target="_blank">KopfKunst</a></p>
     </footer>       
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

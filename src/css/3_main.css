@@ -168,6 +168,10 @@ footer > p > a {
   color: #fff;
 }
 
+.sub-nav {
+  min-height: 140px;
+}
+
 .glyphicon-chevron-right {
   font-size: 10px;
   color: #df2c23;  
