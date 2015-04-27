@@ -233,7 +233,7 @@
                         <img src="./img/content02.jpg" alt="Sauberkeit und Umweltbewusstsein">
                       </div>
                       <div class="col-md-4">
-                        <h4>Kontinuierliche Verbesserung aller Prozesse<p class="black">Wissen, das sich täglich vermehrt, nimmt ab</p></h4>
+                        <h4>Kontinuierliche Verbesserung aller Prozesse<p class="black">Wissen, das sich nicht täglich vermehrt, nimmt ab</p></h4>
                           <p>
                           Wer nicht täglich versucht besser zu werden, hat aufgehört gut zu sein. Aus diesem Grunde werden in unserer Firma ständig alle Tätigkeiten mit dem Anspruch ausgeführt, diese für unseren Kunden zu verbessern. Für Hinweise unserer Kunden, Lieferanten und Partner zur Optimierung unserer Organisation sind wir dankbar.
                         </p>
@@ -456,7 +456,7 @@
                             Tel.: +43 (0)4268 / 26 44<br />
                             Tel.: +43 (0)4268 / 26 44 - 44
                           </address>                            
-                          Für den Inhalt verantwortlich: Firma Zotter Bad &amp; Energie GmbH<br />
+                          Für den Inhalt verantwortlich: Firma Bad &amp; Energie Zotter GmbH<br />
                           Geschäftsführer: Roman Zotter<br />
                           E-Mail: <a href="mailto:office@zotterbad.at">office@zotterbad.at</a><br /><br />
                           Konzept, Design &amp; Entwicklung: <a href="http://www.kopf-kunst.at" taget="_blank">Kahlbacher Events &amp; Fotografie</a>
@@ -465,7 +465,7 @@
                           <br /><br />
                           Bildernachweis: Bilder © Fotolia, Kevin Kahlbacher und diverse. <br /><br />
                           <p>
-                          Verwendung der Bilder ohne Zustimmung ist verboten und strafbar! Wir übernehmen keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. Urheberrechtliche Hinweise: Der Inhalt dieser Website ist urheberrechtlich geschützt. Die Bereitstellung von Inhalten und Bildmaterial dieser Website auf anderen Websites ist nur mit ausdrücklicher Genehmigung von Herrn Roman Zotter, Geschäftsführer, 9360 Friesach oder Herrn Kevin Kahlbacher, 9300 St.Veit an der Glan, gestattet. Die auf der Website enthaltenen Angaben werden nach bestemWissen erstellt und mit großer Sorgfalt auf ihre Richtigkeit überprüft. Trotzdem sind inhaltliche und sachliche Fehler nicht vollständig auszuschließen. Herr Roman Zotter übernimmt deshalb keinerlei Garantie und Haftung für die Richtigkeit, Aktualität und Vollständigkeit der bereitgestellten Informationen. Alle Angaben sind ohne Gewähr. Dies gilt auch für alle Links zu anderen URL’s, die auf unserer Website genannt werden.<br />
+                          Verwendung der Bilder ohne Zustimmung ist verboten und strafbar! Wir übernehmen keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich. Urheberrechtliche Hinweise: Der Inhalt dieser Website ist urheberrechtlich geschützt. Die Bereitstellung von Inhalten und Bildmaterial dieser Website auf anderen Websites ist nur mit ausdrücklicher Genehmigung von Herrn Roman Zotter, Geschäftsführer, 9360 Friesach oder Herrn Kevin Kahlbacher, 9300 St.Veit an der Glan, gestattet. Die auf der Website enthaltenen Angaben werden nach bestem Wissen erstellt und mit großer Sorgfalt auf ihre Richtigkeit überprüft. Trotzdem sind inhaltliche und sachliche Fehler nicht vollständig auszuschließen. Herr Roman Zotter übernimmt deshalb keinerlei Garantie und Haftung für die Richtigkeit, Aktualität und Vollständigkeit der bereitgestellten Informationen. Alle Angaben sind ohne Gewähr. Dies gilt auch für alle Links zu anderen URL’s, die auf unserer Website genannt werden.<br />
                           </p>
                       </div>                   
                       <form class="form-horizontal" role="form" action="index.php" method="post" >
@@ -1031,7 +1031,7 @@
                   <h3>Monteur<br />
                   &nbsp;</h3>
                   <p>Tel.: 04268 / 2644</p>
-                  <p>E-Mail: <a href="mailto:zotter@zotterbad.at">zotter@zotterbad.at</a></p>
+                  <p>E-Mail: <a href="mailto:office@zotterbad.at">office@zotterbad.at</a></p>
                 </div>
                 <div class="col-md-6">
                   <img src="./img/employee-08-large.jpg" alt="Placeholder">

@@ -119,7 +119,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 73255,
+				"buffer_size": 75925,
 				"line_ending": "Windows"
 			}
 		},
@@ -151,7 +151,7 @@
 			"file": "src/css/3_main.css",
 			"settings":
 			{
-				"buffer_size": 5219,
+				"buffer_size": 5254,
 				"line_ending": "Windows"
 			}
 		},
@@ -272,6 +272,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Wissen",
+			"zotter@",
+			"Meinhard",
+			"sub",
+			"Roland",
+			"zotter@zotterbad.at",
+			"Dusche",
+			"Barrierefrei",
 			"Mitarbeiter",
 			"                          <",
 			"Impress",
@@ -348,15 +356,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 73255,
+						"buffer_size": 75925,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								50899,
-								50899
+								14036,
+								14036
 							]
 						],
 						"settings":
@@ -366,7 +374,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10270.0,
+						"translation.y": 3130.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -465,15 +473,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5219,
+						"buffer_size": 5254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4809,
-								4809
+								2805,
+								2805
 							]
 						],
 						"settings":
@@ -483,7 +491,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3502.0,
+						"translation.y": 1960.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
