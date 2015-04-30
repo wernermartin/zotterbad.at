@@ -107,8 +107,8 @@
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="17">RenoDeco</a>
                       <br />
                       <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="18">Klima Design Wände</a>
-                      <br /><br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="16">Bildergalerie</a>
+                      <!--<br /><br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="16">Bildergalerie</a>-->
                     </div>
                     <div>
                       <br />
