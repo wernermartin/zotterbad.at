@@ -25,7 +25,8 @@ gulp.task('vendor', function() {
 
 gulp.task('gallery', function() { 
 	return gulp.src('src/gallery-resources/**/*', {base: 'src'})
-  	.pipe(gulp.dest(outputDir));
+  	.pipe(gulp.dest(outputDir))
+  	.pipe(livereload());
 });
 
 gulp.task('fonts', function() { 

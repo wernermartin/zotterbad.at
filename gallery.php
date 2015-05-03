@@ -211,9 +211,16 @@
                   <div class="item active" data-active-slide="0">
                   <span id="xyz" data-sub-nav="home"></span>
                     <div class="row content">
-                      <div class="col-md-12 gallery">
-                        <?php include_once('gallery-resources/UberGallery.php'); $gallery = UberGallery::init()->createGallery('img/gallery-images'); ?>
-                      </div>                      
+                      <div class="col-md-2"></div>
+                      <div class="col-md-8 gallery">
+                        <?php                           
+                          include_once('gallery-resources/UberGallery.php'); 
+                          $gs = new UberGallery;
+                          $gallery = $gs->createGallery('img/gallery-images'); 
+                        ?>
+                        <p>&nbsp;</p>                        
+                      </div>
+                      <div class="col-md-2"></div>
                     </div>
                   </div>
                 </div>

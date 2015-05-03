@@ -127,6 +127,12 @@ li.dropdown > a.btn-nav:focus {
   border: 15px solid #ffffff;
 }
 
+.col-md-8 > p {
+  padding-bottom: 20px;
+  min-height: 250px;
+  text-align: justify;
+}
+
 footer {
   background-color: #df2c23;
   padding-top: 60px;
@@ -317,8 +323,7 @@ div.minheight450 > p{
   min-height: 400px;
 }
 
-div.gallery {  
-  padding: 15px;
+div.gallery {    
   padding-bottom: 50px;
 }
 

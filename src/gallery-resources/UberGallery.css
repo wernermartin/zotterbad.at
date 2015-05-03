@@ -42,12 +42,17 @@
 
 #credit {
     float: right;
-    font-size: 0.7em;
+    font-size: 0.5em;
     margin: 4px 0;
+    color: #ccc;
 }
 
-#galleryFooter #credit a {
-    color: #369;
+#credit a {
+    color: #ccc;
+}
+
+#galleryFooter a {
+    color: #df2c23;
 }
 
 
@@ -56,7 +61,7 @@
 /* -------------------------------------------------------------------------- */
 
 #galleryPagination {
-    color: #369;
+    color: #df2c23;
     float: left;
     font-size: .9em;
     margin: 0 !important;
@@ -87,7 +92,7 @@
 }
 
 #galleryPagination li a, #galleryPagination li a:visited {
-    color: #369;
+    color: #df2c23;
     display: block;
     padding: 3px 6px;
     text-decoration: none;
