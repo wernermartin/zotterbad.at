@@ -13,13 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="all.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 0px;
-            }
-        </style>
+        <link rel="stylesheet" href="all.min.css">        
         <script src="modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
@@ -28,16 +22,18 @@
         <![endif]-->
 
     <!-- NAVIGATION -->    
-    <ul class="nav nav-pills navbar-fixed-top nav-custom" id="main_navigation">
-      <li class="dropdown"><a class="btn-nav nav-active" href="#carousel-content" role="button" data-slide-to="0" id="nav_home">Home</a></li>
-      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="1" id="nav_aboutzotter">&Uuml;ber Zotter</b></a></li>
-      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="2" id="nav_bath">Bad</b></a></li>
-      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="3" id="nav_energy">Energie</b></a></li>
-      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="4" id="nav_zotterpoints">Zotterpoints</a></li></li>
-      <li class="dropdown"><a class="btn-nav" href="#carousel-content" role="button" data-slide-to="17" id="nav_news">Aktuelles</a></li></li>
-    </ul>    
+    <div>
+      <ul class="nav nav-pills navbar-fixed-top nav-custom" id="main_navigation">
+        <li class="dropdown"><a class="btn-nav nav-active" href="#content" role="button" data-slide-to="0" id="nav_home">Home</a></li>
+        <li class="dropdown"><a class="btn-nav" href="#content" role="button" data-slide-to="1" id="nav_aboutzotter">&Uuml;ber Zotter</b></a></li>
+        <li class="dropdown"><a class="btn-nav" href="#content" role="button" data-slide-to="2" id="nav_bath">Bad</b></a></li>
+        <li class="dropdown"><a class="btn-nav" href="#content" role="button" data-slide-to="3" id="nav_energy">Energie</b></a></li>
+        <li class="dropdown"><a class="btn-nav" href="#content" role="button" data-slide-to="4" id="nav_zotterpoints">Zotterpoints</a></li></li>
+        <li class="dropdown"><a class="btn-nav" href="#content" role="button" data-slide-to="17" id="nav_news">Aktuelles</a></li></li>
+      </ul>
+    </div>
     <!-- !NAVIGATION -->
-
+    <div class="clearfix"></div>
     <!-- Header & Carousel -->
     <div class="container-fluid nav-fix">
       <div class="row col-header">
@@ -54,67 +50,59 @@
                     </div>
                     <div>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> &Ouml;ffnungszeiten:<br />
-                      <p>MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />
-                      FR: 07:30 - 12:00</p>
+                      <p class="openinghours"><span class="glyphicon glyphicon-chevron-right"></span> MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />FR: 07:30 - 12:00</p>
                     </div>
                   </div>
                   <!-- SUB-NAV - ABOUT US -->
                   <div class="item" id="subnav_aboutzotter">
                     <div class="sub-nav">
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="7">&Uuml;ber uns</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#content" data-slide-to="7">&Uuml;ber uns</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="6">Mitarbeiter</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#content" data-slide-to="6">Mitarbeiter</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="8">Kontakt</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#content" data-slide-to="8">Kontakt</a>
                     </div>
                     <div>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> &Ouml;ffnungszeiten:<br />
-                      <p>MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />
-                      FR: 07:30 - 12:00</p>
+                      <p class="openinghours"><span class="glyphicon glyphicon-chevron-right"></span> MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />FR: 07:30 - 12:00</p>
                     </div>                 
                   </div>
                   <!-- ENDOF: SUB-NAV - ABOUT US -->
                   <!-- SUB-NAV - BATHROOM -->
                   <div class="item" id="subnav_bath">
                     <div class="sub-nav">
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="9">Das Zotterbad</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#content" data-slide-to="9">Das Zotterbad</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="10">Badplanung</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#content" data-slide-to="10">Badplanung</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="11">Barrierefrei</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#content" data-slide-to="11">Barrierefrei</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="12">Das kleine Bad</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#content" data-slide-to="12">Das kleine Bad</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="13">Wellness</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#content" data-slide-to="13">Wellness</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="14">Wanne raus - Dusche rein</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#content" data-slide-to="14">Wanne raus - Dusche rein</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="15">Staubfrei Arbeiten</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#content" data-slide-to="15">Staubfrei Arbeiten</a>
+                      <br />
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="gallery.php" data-slide-to="15">Bildergalerie</a>
                     </div>
                     <div>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> &Ouml;ffnungszeiten:<br />
-                      <p>MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />
-                      FR: 07:30 - 12:00</p>
+                      <p class="openinghours"><span class="glyphicon glyphicon-chevron-right"></span> MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />FR: 07:30 - 12:00</p>
                     </div>
                   </div>
                   <!-- ENDOF: SUB-NAV - BATHROOM -->
                   <!-- SUB-NAV - NEWS -->
                   <div class="item" id="subnav_news">
                     <div class="sub-nav">
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="17">RenoDeco</a>
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#content" data-slide-to="17">RenoDeco</a>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="18">Klima Design Wände</a>
-                      <!--<br /><br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#carousel-content" data-slide-to="16">Bildergalerie</a>-->
+                      <span class="glyphicon glyphicon-chevron-right"></span> <a href="#content" data-slide-to="18">Klima Design Wände</a>
                     </div>
                     <div>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> &Ouml;ffnungszeiten:<br />
-                      <p>MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />
-                      FR: 07:30 - 12:00</p>
+                      <p class="openinghours"><span class="glyphicon glyphicon-chevron-right"></span> MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />FR: 07:30 - 12:00</p>
                     </div>                
                   </div>
                   <!-- ENDOF: SUB-NAV - NEWS -->
@@ -125,9 +113,7 @@
                     </div>
                     <div>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> &Ouml;ffnungszeiten:<br />
-                      <p>MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />
-                      FR: 07:30 - 12:00</p>
+                      <p class="openinghours"><span class="glyphicon glyphicon-chevron-right"></span> MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />FR: 07:30 - 12:00</p>
                     </div>                
                   </div>
                   <!-- ENDOF: SUB-NAV - ENERGY -->
@@ -138,9 +124,7 @@
                     </div>
                     <div>
                       <br />
-                      <span class="glyphicon glyphicon-chevron-right"></span> &Ouml;ffnungszeiten:<br />
-                      <p>MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />
-                      FR: 07:30 - 12:00</p>
+                      <p class="openinghours"><span class="glyphicon glyphicon-chevron-right"></span> MO - DO: 07:30 - 12:00 &amp; 13:00 - 17:00<br />FR: 07:30 - 12:00</p>
                     </div>                
                   </div>
                   <!-- ENDOF: SUB-NAV - ZOTTERPOINTS -->
@@ -150,7 +134,7 @@
             <!-- ENDOF: SUB-NAV SLIDER -->
 
             <!-- IMAGE SLIDER -->
-            <div class="col-md-6">
+            <div class="col-md-6 hidden-xs hidden-sm">
                 <div id="carousel-generic" class="carousel slide carousel-big" data-ride="carousel" data-interval="5000">
                 <!-- INDICATORS -->
                 <ol class="carousel-indicators">
@@ -164,25 +148,25 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                   <div class="item active">
-                    <img src="./img/main01.jpg" alt="...">
+                    <img src="./img/main01.jpg" alt="Zotterbad">
                     <div class="carousel-caption">
                         <h3>&nbsp;</h3>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="./img/main02.jpg" alt="...">
+                    <img src="./img/main02.jpg" alt="Zotterbad">
                     <div class="carousel-caption">
                         <h3>&nbsp;</h3>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="./img/main03.jpg" alt="...">
+                    <img src="./img/main03.jpg" alt="Zotterbad">
                     <div class="carousel-caption">
                         <h3>&nbsp;</h3>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="./img/main04.jpg" alt="...">
+                    <img src="./img/main04.jpg" alt="Zotterbad">
                     <div class="carousel-caption">
                         <h3>&nbsp;</h3>
                     </div>
@@ -196,10 +180,12 @@
                 <a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">
                   <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
-              </div>               
+            </div>               
            </div><!-- ENDOF: IMAGE-Carousel -->
-            <div class="col-md-3 logo">
-            </div>
+
+          <div class="col-sm-3 hidden-xs hidden-sm">
+            <img class="header-logo" src="./img/logo--header.jpg">
+          </div>          
           </div>
         </div>
       </div>
@@ -207,7 +193,7 @@
       <!-- CONTENT CAROUSEL -->
       <div class="container">
       <div class="col-md-12">
-                <div id="carousel-content" class="carousel slide carousel-user" data-ride="carousel" data-interval="false">        
+                <div id="content" class="carousel slide carousel-user" data-ride="carousel" data-interval="false">        
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                   <!-- HOME 0 -->
@@ -253,7 +239,7 @@
                         <img src="./img/aboutzotter_01.jpg" alt="Kunde ist K&ouml;nig">
                       </div>
                       <div class="col-md-4">
-                        <h4><a href="#carousel-content" role="button" data-slide-to="6">Mitarbeiter</a></h4>
+                        <h4><a href="#content" role="button" data-slide-to="6">Mitarbeiter</a></h4>
                           <p>
                           Kundenzufriedenheit fällt nicht vom Himmel, sondern muss täglich erarbeitet werden. Zufriedene und engagierte Mitarbeiter sind die Voraussetzung für zufriedene Kunden. Wir bieten unseren Mitarbeitern einen sicheren und auf gegenseitigem Vertrauen basierenden Arbeitsplatz, der ausreichend Handlungsspielraum und Gestaltungsmöglichkeiten bietet. Unsere Mitarbeiter werden gut aus- und weitergebildet, um die erworbenen Kenntnisse beim Kunden einzusetzen. Wir sind uns der sozialen Verantwortung für unsere Mitarbeiter bewusst.
                         </p>
@@ -273,7 +259,7 @@
                   <div class="item">
                     <div class="row content">
                       <div class="col-md-4">
-                        <h4><a href="#carousel-content" role="button" data-slide-to="7">Das Zotterbad:  Das Bad - aus einer – Hand</a></h4>
+                        <h4><a href="#content" role="button" data-slide-to="7">Das Zotterbad:  Das Bad - aus einer – Hand</a></h4>
                         <p>
                           Es ist schon erstaunlich wie schnell das eigene Bad 25 oder sogar mehr Jahre Jubiläum feiert. Sie träumen von einem schönen großzügigen Bad mit Dampfdusche oder einer gemütlichen Badewanne. Doch wenn es an die Umsetzung geht, ist der Traum häufig schnell ausgeträumt, die Vorstellung oder Erfahrung ist oft das Ende der Renovierungswünsche. Deshalb gibt es für unsere Bad Kunden das " Zotterbad"! Das Bad - aus einer - Hand. Das bedeutet für Sie erhebliche Vorteile, weil Sie es nur mit einen Ansprechpartner zu tun haben. Sie brauchen sich nicht um die Koordinierung der verschiedenen Arbeiten kümmern. Das ist unser Knowhow und unser Job!
                         </p>                         
@@ -284,10 +270,10 @@
                       <div class="col-md-4">
                         <h4>Badplanung - individuell</h4>
                           <p>
-                          Nachdem wir uns vor Ort mit Ihnen über ihre Bedürfnisse und Wünsche unterhalten haben, bieten wir Ihnen ein überzeugendes Angebot mit einer exakten Badplanung, mit farblich abgestimmten Gestaltungsmöglichkeiten wie Bodenbeläge, Fliesengestaltungen, Malereien, Beleuchtungsideen und vieles mehr. Wir haben uns auf die individuelle 3-D Planung spezialisiert und planen gemeinsam mit Ihnen Ihr Traum Bad, in dem sich jedes Familienmitglied wohl fühlt. In unseren Schauraum können die verschiedensten Materialmuster im Original kombiniert werden.<br />                          
+                          Nachdem wir uns vor Ort mit Ihnen über ihre Bedürfnisse und Wünsche unterhalten haben, bieten wir Ihnen ein überzeugendes Angebot mit einer exakten Badplanung, mit farblich abgestimmten Gestaltungsmöglichkeiten wie Bodenbeläge, Fliesengestaltungen, Malereien, Beleuchtungsideen und vieles mehr. Wir haben uns auf die individuelle 3-D Planung spezialisiert und planen gemeinsam mit Ihnen Ihr Traum Bad, in dem sich jedes Familienmitglied wohl fühlt. In unseren Schauraum können die verschiedensten Materialmuster im Original kombiniert werden.                        
                           Wir beraten Sie ehrlich und bieten Ihnen Qualität zum fairen Preis. Wir bedienen Sie mit exzellenten Service termingerecht.
                           </p>
-                          <h3>Einen individuellen Badplanungs- &amp; Beratungstermin bei Ihnen zu Hause können Sie gerne unter <bold>04268/26 44</bold> vereinbaren.</h3>                 
+                          <h3>Einen individuellen Badplanungs- &amp; Beratungstermin bei Ihnen zu Hause können Sie gerne unter <br /><bold>04268/26 44</bold> vereinbaren.</h3>                 
                         
                         <img src="./img/bath_02.jpg" alt="3D Badplanung">
                       </div>
@@ -1096,8 +1082,8 @@
       
     </div> <!-- /container --> 
     <footer>
-        <p>&copy; <a href="http://www.zotterbad.at">Bad &amp; Energie Zotter GmbH 2015</a> - 9360 Friesach - Tel.: +43 (0)4268/26 44 - 0 - Fax: +43 (0)4268/26 44 - 44 - Email: <a href="mailto:office@zotterbad.at">office@zotterbad.at</a> -
-        <a href="#carousel-content" data-slide-to="8">Impressum</a> - Grafik &amp; Design: <a href="http://www.kopf-kunst.at" target="_blank">KopfKunst</a></p>
+        <p>&copy; <a href="http://www.zotterbad.at">Bad &amp; Energie Zotter GmbH 2015</a> - Solarstraße 1, 9360 Friesach - Tel.: +43 (0)4268/26 44 0 - Fax: +43 (0)4268/26 44 4 - Email: <a href="mailto:office@zotterbad.at">office@zotterbad.at</a> -
+        <a href="#content" data-slide-to="8">Impressum</a> - Grafik &amp; Design: <a href="http://www.kopf-kunst.at" target="_blank">KopfKunst</a></p>
     </footer>       
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="jquery-1.11.2.min.js"><\/script>')</script>

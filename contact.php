@@ -8,10 +8,10 @@ if ($_POST["submit"]) {
 	$human = intval($_POST['InputReal']);
 
 	$from = 'Kontakt Formular - www.zotterbad.at';
-	$headers = 'From: webmaster@zotterbad.at' . "\r\n" .
+	$headers = 'From: office@zotterbad.at' . "\r\n" .
     'Reply-To: webmaster@zotterbad.at' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
-	$to = 'hello@martinwerner.at'; 
+	$to = 'office@zotterbad.at'; 
 	$subject = 'Nachricht von www.zotterbad.at';
 	 
 	$body = "Von: $name\n E-Mail: $email\n Nachricht:\n $message";

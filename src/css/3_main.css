@@ -4,6 +4,13 @@
    Author's custom styles
    ========================================================================== */
 
+
+body {
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+
 .btn-nav {
   display: inline-block;
   padding: 6px 12px;
@@ -67,6 +74,10 @@ li.dropdown > a.btn-nav:focus {
   padding-top: 20px;
 }
 
+.openinghours {
+  font-size: 11px;
+}
+
 .logo {
   background-image: url("./img/logo--header.jpg");
   background-repeat: no-repeat;
@@ -74,6 +85,12 @@ li.dropdown > a.btn-nav:focus {
   width: 320px;
   height: 260px; 
   margin-left: -20px;
+}
+
+.header-logo {
+  margin-top: 30px;
+  margin-left: -30px;
+
 }
 
 .content {
@@ -300,7 +317,10 @@ div.minheight450 > p{
   min-height: 400px;
 }
 
-
+div.gallery {  
+  padding: 15px;
+  padding-bottom: 50px;
+}
 
 
 
