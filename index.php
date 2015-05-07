@@ -409,18 +409,10 @@
                         <h4>Firmenchronologie, -Philosophie und Leistungsumfang</h4>
                         <p>
                         Die Firma Zotter wurde 1970 von Roman Zotter Senior gegründet.
-                        </p>
-                        <p>
-                        Nach erfolgreich abgelegter Konzessionsprüfung für das Gewerbe der Gas- und Wasserleitungsinstallation ist Roman Zotter Junior seit 1990 Betriebsinhaber und hat danach auch die Meisterprüfung für Zentralheizungsbauer erfolgreich abgelegt.
-                        </p>
-                        <p>
-                        1992 zog das Unternehmen in die Olsastraße 6 in Friesach. Nach kontinuierlichem Aufwärtstrend in den 90er-Jahren hat sich der Personalstand auf sieben Mitarbeiter eingependelt. Es werden ständig Lehrlinge ausgebildet und konsequent Fortbildungsmaßnahmen durchgeführt um guten Mitarbeiterstamm zu gewährleisten.
-                        </p>
-                        <p>
+                        Nach erfolgreich abgelegter Konzessionsprüfung für das Gewerbe der Gas- und Wasserleitungsinstallation ist Roman Zotter Junior seit 1990 Betriebsinhaber und hat danach auch die Meisterprüfung für Zentralheizungsbauer erfolgreich abgelegt.<br />
+                        1992 zog das Unternehmen in die Olsastraße 6 in Friesach. Nach kontinuierlichem Aufwärtstrend in den 90er-Jahren hat sich der Personalstand auf sieben Mitarbeiter eingependelt. Es werden ständig Lehrlinge ausgebildet und konsequent Fortbildungsmaßnahmen durchgeführt um guten Mitarbeiterstamm zu gewährleisten.<br />
                         Im Jahr 2010 zog das Unternehmen in das selbst geplante und neu gebaute Geschäftsgebäude in die Solarstrasse 1. Das neue Geschäftsgebäude wurde mit einem großzügigen Schauraum versehen, dessen Sortiment mit exklusiven Badmöbel und ausgesuchten Fliesenkeramiken ausgestattet ist. Im hinteren Bereich des Gebäudes  befinden sich Lagerräume. Zudem bietet der Besprechungsbereich im Schauraum sowie im Büro ideale Voraussetzungen um Kundentermine, sowie Planungsbesprechungen durchzuführen.
-                        </p>
-                        <p>
-                        Wir beraten, planen, installieren und modernisieren seit über 40 Jahren mit dem Bestreben, Anlagen von höchster Qualität zu bauen. Unsere Stärken sind neben fachlicher Kompetenz Terminsicherheit, Preissicherheit, prompter Service und Leistungen „Alles aus einer Hand“
+                        <br />Wir beraten, planen, installieren und modernisieren seit über 40 Jahren mit dem Bestreben, Anlagen von höchster Qualität zu bauen. Unsere Stärken sind neben fachlicher Kompetenz Terminsicherheit, Preissicherheit, prompter Service und Leistungen „Alles aus einer Hand“
                         </p>
                       </div>
                       <div class="col-md-4">
